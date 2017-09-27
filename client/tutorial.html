@@ -1,0 +1,235 @@
+	<template name="tutorial">
+    <div class="container">
+        <div class="row instructions">
+						<h3>Instructions</h3>
+            <p>We'd like you to read a research paper abstract and highlight the parts that describe the paper's:</p>
+						<ol>
+							<li><span class="key-background">Background/implications:</span> What is the intellectual context of this work? What other (higher-level) goals/questions can be furthered by this work? How might this help other research(ers)?</li>
+							<li><span class="key-purpose">Purpose:</span> What do the paper's authors want to do or know?</li>
+							<li><span class="key-mechanism">Mechanism:</span> How did the paper's authors do it or find out?</li>
+							<li><span class="key-finding">Findings:</span> Did it work? What did the paper's authors find out?</li>
+						</ol>
+
+						<p>Here are examples of each highlight type in the context of two different abstracts:</p>
+						<div class="row tutorial-example">
+							<div class="col-md-5 col-xs-5 doc example">
+								<p><label class="trial-names">Example 1</label></p>
+								<span class="key-background">The management of group context in socially mediating technologies is an important challenge for the design community</span>. <span class="key-purpose">To better understand how users manage group context, </span><span class="key-mechanism">we explored the practice of multiple profile management in social media.</span> <span class="key-finding">In doing so, we observed creative and opportunistic strategies for group context management. We found that multiple profile maintenance is motivated by four factors: privacy, identity, utility, and propriety. Drawing on these motives, we observe a continuum of boundary regulation behaviors: pseudonymity, practical obscurity, and transparent separation.</span> <span class="key-background">Based on these findings, we encourage designers of group context management systems to more broadly consider motives and practices of group separations in social media. Group context management systems should be privacy-enhancing, but a singular focus on privacy overlooks a range of other group context management practices.</span>
+							</div>
+							<div class="col-md-5 col-xs-5 doc example">
+								<p><label class="trial-names">Example 2</label></p>
+								<span class="key-purpose">In this paper we explore the challenges in crowdsourcing the task of translation over the web in which remotely located translators work on providing translations independent of each other.</span> <span class="key-mechanism">We then propose a collaborative workflow for crowdsourcing translation to address some of these challenges. In our pipeline model, the translators are working in phases where output from earlier phases can be enhanced in the subsequent phases. </span> <span class="key-background">We also highlight some of the novel contributions of the pipeline model like assistive translation and translation synthesis that can leverage monolingual and bilingual speakers alike. </span> <span class="key-finding">We evaluate our approach by eliciting translations for both a minority-to-majority language pair and a minority-to-minority language pair. We observe that in both scenarios, our workflow produces better quality translations in a cost-effective manner, when compared to the traditional crowdsourcing workflow.</span>
+							</div>
+						</div>
+
+						<p>As you can see, you don't have to understand exactly what the authors are saying; you can often tell just based on writing/word-level cues when authors are saying a particular kind of thing:</p>
+						<ul>
+							<li><strong>Example 1</strong> demonstrates one common pattern:
+								<ol>
+									<li>state the <span class="key-background">background</span> for the paper in the beginning, quickly move to</li> 
+									<li>describe the specific <span class="key-purpose">purpose</span> of the paper, then go on to</li>
+									<li>discuss the <span class="key-mechanism">mechanisms</span> and <span class="key-finding">findings</span> of the work, and </li>
+									<li>zoom back up to <span class="key-background">how their work is important for questions/goals XYZ</span>)</li>
+								</ol>
+							</li>
+							<li><strong>Example 2</strong> illustrates another possible pattern:
+								<ol>
+									<li>immediately state the specific <span class="key-purpose">purpose</span> of the paper and <span class="key-mechanism">the approach introduced by the paper that achieves that purpose</span>, followed by </li>
+									<li><span class="key-background">a statement of how others could benefit from ths work</span>, and then </li>
+									<li>describing <span class="key-finding">how they know the approach works</span></li>
+								</ol>
+							</li>
+						</ul>
+						<hr/>
+						<h3>Let's practice!</h3>
+						<p>Select a highlight button to activate a highlight state. Then select parts of the text to apply the highlight state.</p>
+						<div class="row tutorial-example">
+							<div class="col-md-12 col-xs-12">
+								<label>Highlight buttons:</label>
+								<br/>
+								<div class="btn-group" role="group" aria-label="...">
+					        <button type="button" class="btn btn-default background init-highlight">Highlight{{statusBackground}} background/implications</button>
+					        <button type="button" class="btn btn-default purpose init-highlight">Highlight{{statusPurpose}} purpose</button>
+					        <button type="button" class="btn btn-default mechanism init-highlight">Highlight{{statusMechanism}} mechanism</button>
+					        <button type="button" class="btn btn-default finding init-highlight">Highlight{{statusFinding}} finding</button>
+					        <button type="button" class="btn btn-default unmark init-highlight">Unhighlight{{statusUnmark}}</button>
+					        <!-- <button type="button" class="btn btn-default none init-highlight">Stop highlighting</button> -->
+					      </div>
+								<p><span class="highlight-description" style="display:none;">{{highlightDescription}}</span></p>
+									<div class="col-md-5 col-xs-5 doc example">
+										<p class="trial-names" style="display:none;"><label>Your highlights</label></p>
+										{{#each testWords}}
+											{{> tutorialWord}}
+										{{/each}}
+									</div>
+									<div class="col-md-5 col-xs-5 doc example gold-example" style="display:none;">
+										<p class="trial-names" style="display:none;"><label>Correct highlights</label></p>
+										{{#each goldWords}}
+											{{> goldWord}}
+										{{/each}}
+									</div>
+								</div>
+								<!-- <hr/> -->
+								<!-- <p class="trial-result-filler"> </p> -->
+						</div>
+						<div class="row tutorial-finisher">
+							<div class="col-md-12 col-xs-12">
+								<p class="trial-result" style="display:none;">Your highlights are {{score}} consistent with the correct highlights!</p>
+								<button class="test btn btn-lg btn-primary">Check your work</button> then
+								<button class="continue btn btn-lg btn-success" disabled=true>Continue to main task</button>
+							</div>
+						</div>
+        </div>
+    </div>
+</template>
+
+<template name="tutorialWord">
+    <!-- Single button -->
+    <!-- <div class="btn-group token-container"> -->
+    <span class="token {{keyType}}" id="word-{{_id}}">
+      {{content}}
+    </span>
+</template>
+
+<template name="goldWord">
+    <!-- Single button -->
+    <!-- <div class="btn-group token-container"> -->
+    <span class="token {{keyType}}" id="word-{{_id}}">
+      {{content}}
+    </span>
+</template>
+
+<!-- <template name="tutorialSentence">
+    <p>
+        {{#each sampleWords}}
+            {{> sampleWord}}
+        {{/each}}
+    </p>
+</template>
+
+<template name="sampleWord">
+    <div class="btn-group token-container">
+        <button type="button" class="dropdown-toggle token key-neutral" id="word-{{_id}}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          {{content}}
+        </button>
+        <ul class="dropdown-menu">
+          <li class="key-option purp"><a href="#">Problem</a></li>
+          <li class="key-option mech"><a href="#">Mechanism</a></li>
+          <li class="key-option"><a href="#">Unmark</a></li>
+        </ul>
+    </div>
+</template> -->
+
+<!-- <h2> Selecting keywords/tags </h2>
+
+			<ol>
+
+					<li>
+
+							<b>Select words </b> that tell us about the <span class="key-purpose"> purposes </span> and <span class="key-purpose"> benefits  </span> of the product.
+		<ul>
+		<li> What is the product <b>good for</b>? What value or <b>benefit</b> does it create? <b>Who</b> uses it and <b>why</b>?  </li>
+		</ul>
+					</li>
+
+
+	<li>
+							<b>Select words </b> that tell us about the <span class="key-mechanism"> strucuture </span> and <span class="key-mechanism"> mechanisms </span> of the product.
+		<ul>
+		<li> How does the product <b>work</b>? What is the product <b>made of</b>?  What are its <b>key features/components</b>?</li>
+		</ul>
+	</li>
+
+			</ol>
+	<img src="/purpose_mechanism2.jpg" width="400" height="256" align ="middle">
+<br>
+<b>See example below!</b>
+
+
+
+	</div>
+	<div class="divider">
+	</div>
+	<div class="row doc-data">
+			<div class="col-md-12 col-xs-12">
+					<div class="row tutorial-example">
+							<h2>Examples</h2>
+
+		<h3> 1. Selecting keywords/tags </h3>
+
+		<label>Selecting words reflecting <span class="key-purpose">purposes</span> and <span class="key-purpose">benefits</span></label>
+		<p>We have marked some example words that talk about what the product is <b>good for</b>, <b>who</b> uses it and <b>why</b></p>
+					</div>
+					<div class="row">
+							<div class="col-md-6 col-xs-6 doc">
+									<h3>The AstroPillow</h3>
+			<ul>
+			<li>Built in blind fold with led lights and sensors</li>
+			<li>Alarm includes led lighting, vibrations and built in headphones for <span class="key-purpose">comfort</span>.</li>
+			<li><span class="key-purpose">Wake up comfortably</span> with built in alarm clock</li>
+			<li>App that connects with Bluetooth to <span class="key-purpose">display sleep patterns</span>, pick music and alarm</li>
+			<li>Full <span class="key-purpose">support for any kind of sleeper </span></li>
+			<li><span class="key-purpose">Track sleep patterns</span></li>
+			</ul>
+							</div>
+					</div>
+
+	<br>
+	<div class="row tutorial-example">
+		<label>Selecting words reflecting <span class="key-mechanism">strucuture</span> and <span class="key-mechanism">mechanisms</span></label>
+		<p>We have marked some example words that talk about how the product <b>works</b>, its <b>key features</b> and what it is <b>made of</b></p>
+					</div>
+	<div class="row">
+							<div class="col-md-6 col-xs-6 doc">
+									<h3>The Astro<span class="key-mechanism">Pillow</span></h3>
+			<ul>
+			<li>Built in <span class="key-mechanism">blind fold</span> with <span class="key-mechanism">led lights</span> and <span class="key-mechanism">sensors</span></li>
+			<li><span class="key-mechanism">Alarm</span> includes <span class="key-mechanism">led lighting</span>, <span class="key-mechanism">vibrations</span> and built in <span class="key-mechanism">headphones</span> for comfort.</li>
+			<li>Wake up comfortably with built in <span class="key-mechanism">alarm clock </span></li>
+			<li><span class="key-mechanism">App</span> that connects with <span class="key-mechanism">Bluetooth</span> to display sleep patterns, pick <span class="key-mechanism">music</span> and <span class="key-mechanism">alarm</span></li>
+			<li>Full support for any kind of sleeper</li>
+			<li>Track sleep patterns</li>
+			</ul>
+							</div>
+					</div>
+
+	<br>
+	<div class="row tutorial-example" >
+							<h4><b>Bad</b> Example</h4>
+							<p>Here is an example of <b>wrong</b> word selection!</p>
+		<div class="col-md-6 col-xs-6 doc">
+			A wristband with GPS is used to <strike><span class="key-mechanism">track your child</span>.</strike>
+							</div>
+
+					</div>
+		<i>Tracking your child</i> is the purpose/benefit of the product -- and <b> not </b> how it works!
+	<div class="row tutorial-example">
+		<div class="col-md-6 col-xs-6 doc">
+			A <strike><span class="key-purpose">wristband</span></strike> with <strike><span class="key-purpose">GPS</span></strike> is used to track your child.
+							</div>
+
+					</div>
+		<i>Wristband</i> and <i>GPS</i> are things the product is made of / key features -- and <b> not </b> the purpose of product!
+
+	<!--
+	<div class="row tutorial-example">
+		<h2> Is this product a "combination product"?</h2>
+
+	<form action="">
+		<input type="radio" name="combo" value="yes"> <b> YES</b> Product is clearly a combination of different <span class="key-mechanism">mechanisms</span><br>
+		<input type="radio" name="combo" value="yes"> <b>NO</b> Product is not a combination<br>
+	</form>
+
+	<br>
+
+	<u>Examples for combination products</u>:
+	<ul>
+	<li> An <span class="key-mechanism">alarm clock</span> with <span class="key-mechanism">wheels</span> to help you wake up! </li>
+	<li> A <span class="key-mechanism">pillow</span> with <span class="key-mechanism">sensors</span> to track sleep patterns </li>
+	<li> <b> Many more examples!</b></li>
+	</ul>
+	<br>
+	<img src="/combo_clock.jpg" width="256" height="170" align ="middle">
+
+	</div>
+	-->

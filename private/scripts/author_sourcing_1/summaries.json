@@ -1,0 +1,212 @@
+[
+  {
+    "content": "Yes", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "6Lo5t4qKdmJRCWjAr", 
+    "docID": "YEC3TuQFAh7LMEGbn", 
+    "sumType": "Purpose"
+  }, 
+  {
+    "content": "Yes", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "sRWzu9W9BfNuecBmX", 
+    "docID": "YEC3TuQFAh7LMEGbn", 
+    "sumType": "Mechanism"
+  }, 
+  {
+    "content": "a", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "gaYYLpLp9HxZdrjaJ", 
+    "docID": "ujatr2g4rgRBHxh48", 
+    "sumType": "Purpose"
+  }, 
+  {
+    "content": "b", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "ee92tc95cT4nGhPjM", 
+    "docID": "ujatr2g4rgRBHxh48", 
+    "sumType": "Mechanism"
+  }, 
+  {
+    "content": "a", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "wZCujZfD3FTmzdtg7", 
+    "docID": "2RJWZD7fFaB6jd3qj", 
+    "sumType": "Purpose"
+  }, 
+  {
+    "content": "b", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "fS9YuKYqbNJ9PQRga", 
+    "docID": "2RJWZD7fFaB6jd3qj", 
+    "sumType": "Mechanism"
+  }, 
+  {
+    "content": "a", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "fnHxs7qS3tX3bcLJD", 
+    "docID": "tSnDBcYeAyqhAyFSj", 
+    "sumType": "Purpose"
+  }, 
+  {
+    "content": "b", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "2DtgK4SW78utEMt4d", 
+    "docID": "tSnDBcYeAyqhAyFSj", 
+    "sumType": "Mechanism"
+  }, 
+  {
+    "content": "a", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "DJtkeaTsj4DvG2XZJ", 
+    "docID": "CdNT9uKFtZMNm4M6f", 
+    "sumType": "Purpose"
+  }, 
+  {
+    "content": "b", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "cWdRxYFM8MK3otFEY", 
+    "docID": "CdNT9uKFtZMNm4M6f", 
+    "sumType": "Mechanism"
+  }, 
+  {
+    "content": "a", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "LPvfYYWd7nrXaXDgk", 
+    "docID": "W3Pb4qX3gCKCfRS7g", 
+    "sumType": "Purpose"
+  }, 
+  {
+    "content": "b", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "MpFmAvHKPpcZdxvxo", 
+    "docID": "W3Pb4qX3gCKCfRS7g", 
+    "sumType": "Mechanism"
+  }, 
+  {
+    "content": "a", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "DhkgCfTdNMz2tmueW", 
+    "docID": "eFRFsmDRx3bNFpuqc", 
+    "sumType": "Purpose"
+  }, 
+  {
+    "content": "b", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "HwjMf9voR55KF6hCF", 
+    "docID": "eFRFsmDRx3bNFpuqc", 
+    "sumType": "Mechanism"
+  }, 
+  {
+    "content": "This one is poorly written - comes across as empirical study in the beginning, but is actually really a systems/method contribution", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "E8tQDbvsXgRwvDEnW", 
+    "docID": "9ac6a4oBm5rhMhmZ2", 
+    "sumType": "Purpose"
+  }, 
+  {
+    "content": "a", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "Gc3njrz7Jb37gdoA2", 
+    "docID": "9ac6a4oBm5rhMhmZ2", 
+    "sumType": "Mechanism"
+  }, 
+  {
+    "content": "a", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "kanzhWY7eu2z6T5Jg", 
+    "docID": "34XRuZLTQZ9BMXhDb", 
+    "sumType": "Purpose"
+  }, 
+  {
+    "content": "b", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "g2NbnQftwACgvv74c", 
+    "docID": "34XRuZLTQZ9BMXhDb", 
+    "sumType": "Mechanism"
+  }, 
+  {
+    "content": "a", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "av9KcGehdJvxnb2Bz", 
+    "docID": "bd4fYjAbAXMn69PGA", 
+    "sumType": "Purpose"
+  }, 
+  {
+    "content": "b", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "ddjA7Lk7z2Ag6uEqc", 
+    "docID": "bd4fYjAbAXMn69PGA", 
+    "sumType": "Mechanism"
+  }, 
+  {
+    "content": "a", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "kXyM7rKksKQ9CCijZ", 
+    "docID": "3S4g2gxe2thbCdaFX", 
+    "sumType": "Purpose"
+  }, 
+  {
+    "content": "b", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "Aewrwqq9ru4SPXEC5", 
+    "docID": "3S4g2gxe2thbCdaFX", 
+    "sumType": "Mechanism"
+  }, 
+  {
+    "content": "a", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "Aao3fhhYWBBsAaeYv", 
+    "docID": "8H5kmbYeMjvgYFPyj", 
+    "sumType": "Purpose"
+  }, 
+  {
+    "content": "b", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "cSFCEWCRtHDXxEY7M", 
+    "docID": "8H5kmbYeMjvgYFPyj", 
+    "sumType": "Mechanism"
+  }, 
+  {
+    "content": "a", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "XvWhoXhHRfYB3p2X7", 
+    "docID": "t2iWKcsGSMkhEia4t", 
+    "sumType": "Purpose"
+  }, 
+  {
+    "content": "b", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "R8C3tqWGidqDXb2L6", 
+    "docID": "t2iWKcsGSMkhEia4t", 
+    "sumType": "Mechanism"
+  }, 
+  {
+    "content": "a", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "aq9XuWxKXCrdG2mZh", 
+    "docID": "uPX5zMjsyEFbEf2JK", 
+    "sumType": "Purpose"
+  }, 
+  {
+    "content": "b", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "cnTsrZLuaebjQFcg9", 
+    "docID": "uPX5zMjsyEFbEf2JK", 
+    "sumType": "Mechanism"
+  }, 
+  {
+    "content": "a", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "Mtqwo483iLSWrtPcp", 
+    "docID": "5Dv4syKQhSChGdzaj", 
+    "sumType": "Purpose"
+  }, 
+  {
+    "content": "b", 
+    "userID": "xsupp365FjjfdFKtd", 
+    "_id": "dAfuJs3Bk67vYiEQj", 
+    "docID": "5Dv4syKQhSChGdzaj", 
+    "sumType": "Mechanism"
+  }
+]

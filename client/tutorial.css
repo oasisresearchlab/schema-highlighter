@@ -1,0 +1,32 @@
+.tutorial-example {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.example {
+  margin: 5px;
+}
+
+hr {
+  border-top: 1px solid grey;
+}
+
+.test {
+  margin-bottom: 10px;
+}
+
+.trial-result {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.continue {
+  margin-bottom: 10px;
+}
+
+.highlight-description {
+  margin-top: 10px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 12px;
+}

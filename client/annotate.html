@@ -1,0 +1,134 @@
+<template name="annotationPage">
+    <div class="container">
+        <!-- {{#if isLoggedIn}} -->
+            {{>annotateTask}}
+        <!-- {{else}} -->
+            <!-- {{> annotateLogin}} -->
+        <!-- {{/if}} -->
+    </div>
+</template>
+
+<template name="annotateLogin">
+    Please login or create an account before continuing. Use your MTurkID as your username.
+</template>
+
+<template name="annotateTask">
+    <h1>Document has been finished by {{numAnnotations}} total people</h1>
+    <div class="row instructions">
+        <!-- <p>Please read the product description below and help us:</p>
+        <ol>
+            <li>
+                Summarize the <span class="key-purpose">problem</span> and <span class="key-mechanism">mechanism(s)</span> of the product in the textboxes below.
+            </li>
+            <li>
+                Annotate the description to mark the individual words that best signal the unique <span class="key-purpose">problem</span> and/or <span class="key-mechanism">mechanism(s)</span> of the product. Mark a word by clicking on it and selecting the appropriate keyword type (e.g., problem or mechanism). You may mark as many words as you think will help.
+            </li>
+        </ol>
+        <p>Click on the "I'm finished" button below when you are done.</p> -->
+        <p>Highlight the <span class="key-background">background/implications</span>, <span class="key-purpose">purpose</span>, <span class="key-mechanism">mechanism</span>, and <span class="key-finding">finding</span> aspects of the abstract below. Select a highlight button to activate a highlight state. Then select parts of the text to apply the highlight state.</p>
+
+        <button class="btn btn-primary" data-target="#tips" data-toggle="collapse" aria-expanded="false" aria-controls="tips">Show/hide tips/examples</button>
+        <div class="collapse row" id="tips">
+          <div class="col-md-12 col-xs-12">
+            <h3>Tips/examples</h3>
+            <p>Here are the main parts of the abstract we'd like you to highlight:</p>
+            <ol>
+              <li><span class="key-background">Background/implications:</span> What is the intellectual context of this work? What other (higher-level) goals/questions can be furthered by this work? How might this help other research(ers)?</li>
+              <li><span class="key-purpose">Purpose:</span> What do the paper's authors want to do or know?</li>
+              <li><span class="key-mechanism">Mechanism:</span> How did the paper's authors do it or find out?</li>
+              <li><span class="key-finding">Findings:</span> Did it work? What did the paper's authors find out?</li>
+            </ol>
+
+            <p>Here are examples of each highlight type in the context of two different abstracts:</p>
+            <div class="row tutorial-example">
+              <div class="col-md-5 col-xs-5 doc example">
+                <p><label class="trial-names">Example 1</label></p>
+                <span class="key-background">The management of group context in socially mediating technologies is an important challenge for the design community</span>. <span class="key-purpose">To better understand how users manage group context, </span><span class="key-mechanism">we explored the practice of multiple profile management in social media.</span> <span class="key-finding">In doing so, we observed creative and opportunistic strategies for group context management. We found that multiple profile maintenance is motivated by four factors: privacy, identity, utility, and propriety. Drawing on these motives, we observe a continuum of boundary regulation behaviors: pseudonymity, practical obscurity, and transparent separation.</span> <span class="key-background">Based on these findings, we encourage designers of group context management systems to more broadly consider motives and practices of group separations in social media. Group context management systems should be privacy-enhancing, but a singular focus on privacy overlooks a range of other group context management practices.</span>
+              </div>
+              <div class="col-md-5 col-xs-5 doc example">
+                <p><label class="trial-names">Example 2</label></p>
+                <span class="key-purpose">In this paper we explore the challenges in crowdsourcing the task of translation over the web in which remotely located translators work on providing translations independent of each other.</span> <span class="key-mechanism">We then propose a collaborative workflow for crowdsourcing translation to address some of these challenges. In our pipeline model, the translators are working in phases where output from earlier phases can be enhanced in the subsequent phases. </span> <span class="key-background">We also highlight some of the novel contributions of the pipeline model like assistive translation and translation synthesis that can leverage monolingual and bilingual speakers alike. </span> <span class="key-finding">We evaluate our approach by eliciting translations for both a minority-to-majority language pair and a minority-to-minority language pair. We observe that in both scenarios, our workflow produces better quality translations in a cost-effective manner, when compared to the traditional crowdsourcing workflow.</span>
+              </div>
+            </div>
+
+            <p>As you can see, you don't have to understand exactly what the authors are saying; you can often tell just based on writing/word-level cues when authors are saying a particular kind of thing:</p>
+            <ul>
+              <li><strong>Example 1</strong> demonstrates one common pattern:
+                <ol>
+                  <li>state the <span class="key-background">background</span> for the paper in the beginning, quickly move to</li>
+                  <li>describe the specific <span class="key-purpose">purpose</span> of the paper, then go on to</li>
+                  <li>discuss the <span class="key-mechanism">mechanisms</span> and <span class="key-finding">findings</span> of the work, and </li>
+                  <li>zoom back up to <span class="key-background">how their work is important for questions/goals XYZ</span>)</li>
+                </ol>
+              </li>
+              <li><strong>Example 2</strong> illustrates another possible pattern:
+                <ol>
+                  <li>immediately state the specific <span class="key-purpose">purpose</span> of the paper and <span class="key-mechanism">the approach introduced by the paper that achieves that purpose</span>, followed by </li>
+                  <li><span class="key-background">a statement of how others could benefit from ths work</span>, and then </li>
+                  <li>describing <span class="key-finding">how they know the approach works</span></li>
+                </ol>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr/>
+        <label>Highlight buttons:</label>
+        <br/>
+        <div class="btn-group" role="group" aria-label="...">
+          <button type="button" class="btn btn-default background init-highlight">Highlight{{statusBackground}} background/implications</button>
+          <button type="button" class="btn btn-default purpose init-highlight">Highlight{{statusPurpose}} purpose</button>
+          <button type="button" class="btn btn-default mechanism init-highlight">Highlight{{statusMechanism}} mechanism</button>
+          <button type="button" class="btn btn-default finding init-highlight">Highlight{{statusFinding}} finding</button>
+          <button type="button" class="btn btn-default unmark init-highlight">Unhighlight{{statusUnmark}}</button>
+          <!-- <button type="button" class="btn btn-default none init-highlight">Stop highlighting</button> -->
+        </div>
+        <p><span class="highlight-description" style="display:none;">{{highlightDescription}}</span></p>
+    <!-- <div class="divider">
+      <div class="btn-group" role="group" aria-label="...">
+        <button type="button" class="btn btn-default background init-highlight">Highlight background</button>
+        <button type="button" class="btn btn-default purpose init-highlight">Highlight purpose</button>
+        <button type="button" class="btn btn-default mechanism init-highlight">Highlight mechanism</button>
+        <button type="button" class="btn btn-default finding init-highlight">Highlight finding</button>
+        <button type="button" class="btn btn-default unmark init-highlight">Remove highlights</button>
+        <button type="button" class="btn btn-default none init-highlight">Stop highlighting</button>
+      </div>
+    </div> -->
+    </div>
+    <div class="row doc-data">
+        <div class="col-md-6 col-xs-6 doc">
+            {{#each sentences}}
+                {{> sentence}}
+            {{/each}}
+        </div>
+        <div class="col-md-6 col-xs-6 summary">
+            <!-- <label>Notes (optional)</label>
+            <textarea class="form-control" id="summ-purp" rows="3" placeholder="Use this space to write any thoughts you have on the document while highlighting (e.g., is there anything weird about the abstract?)"></textarea>
+            <br/>
+            <label>Feedback (optional)</label>
+            <textarea class="form-control" id="summ-mech" rows="3" placeholder="Write any thoughts you had on the task design here. What did you like/dislike? How can we do better?"></textarea> -->
+            <div class="controls">
+                <!-- take the user to confirmation page -->
+                <!-- <button class="finished btn btn-success">I'm finished!</button> -->
+                <button type="button" class="finished btn btn-success btn-lg " id="load" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Processing Submission">I'm finished!</button>
+                <!-- take the user to confirmation page -->
+                <!-- <button class="another btn btn-default">Get me another!</button> -->
+            </div>
+        </div>
+    </div>
+</template>
+
+<template name="sentence">
+    <p>
+        {{#each words}}
+            {{> word}}
+        {{/each}}
+    </p>
+</template>
+
+<template name="word">
+    <!-- Single button -->
+    <!-- <div class="btn-group token-container"> -->
+    <span class="token {{keyType}}" id="word-{{_id}}">
+      {{content}}
+    </span>
+</template>

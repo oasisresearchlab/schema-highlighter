@@ -1,0 +1,81 @@
+.divider {
+    border:dashed grey 1px;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+
+.doc {
+    background-color: white;
+    padding:15px;
+    /*margin-top:1px;*/
+}
+
+.key-purpose {
+    background-color: #F9CCCC !important;
+}
+
+.key-mechanism {
+    background-color: rgb(194, 240, 194) !important;
+}
+
+.key-finding {
+    background-color: #66b3ff !important;
+}
+
+.key-background {
+    background-color: #ffff99 !important;
+}
+
+.active-purpose {
+    background-color: #F9CCCC !important;
+}
+
+.active-mechanism {
+    background-color: rgb(194, 240, 194) !important;
+}
+
+.active-finding {
+    background-color: #66b3ff !important;
+}
+
+.active-background {
+    background-color: #ffff99 !important;
+}
+
+.active-unmark {
+    background-color: grey !important;
+}
+
+.key-neutral {
+    background-color: white !important;
+}
+
+.token {
+    border: none;
+    /*background-color: rgb(238, 238, 238);*/
+    padding:0px 0px 0px 0px;
+    margin:0px;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Chrome/Safari/Opera */
+    -khtml-user-select: none;
+    /* Konqueror */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently not supported by any browser */
+}
+
+.token-container {
+    border: none;
+    color: none;
+}
+
+.controls {
+    margin-top:15px;
+
+}
