@@ -34,7 +34,7 @@ def create_document(docPackage):
     new_id = str(ObjectId())
     docObj = Document(docPackage, {'_id': new_id})
     print "Attempting to create doc:", docObj
-    docID = db_util.insert("documents", [docObj])
+    docID = db_util.insert("documents", [docObj])[0]
 
     if docID is not None:
         print "Successfully inserted doc:", docID, docObj
@@ -47,12 +47,14 @@ def create_document(docPackage):
     else:
         print "FAILED to insert doc:", docID, docObj
 
+    return docID
+
 def create_sentence(docID, content, psn, lastGlobal):
 
     # create the sentence
     new_id = str(ObjectId())
     sentObject = Sentence(docID, content, psn, {'_id': new_id})
-    sentID = db_util.insert("sentences", [sentObject])
+    sentID = db_util.insert("sentences", [sentObject])[0]
     if sentID is not None:
         print "Successfully created sentence:", sentID, sentObject
         # Using the new_id because insert function from mongohq returns a list of ids
@@ -74,14 +76,14 @@ def create_sentence(docID, content, psn, lastGlobal):
         for idx, token in enumerate(tokens):
             new_id = str(ObjectId())
             word = Word(token, idx+1, lastGlobal+idx+1, dbSent, {'_id': new_id})
-            wordID = db_util.insert("words", [word])
+            wordID = db_util.insert("words", [word])[0]
             wordIDs.append(wordID)
             lastLocal += 1
 
         # update sentences with wordID info
         db.sentences.update(
             {"_id": sentID},
-            {"$push": {"wordIDs": wordIDs}}
+            {"$set": {"wordIDs": wordIDs}}
         )
 
         return lastGlobal + lastLocal
@@ -94,6 +96,7 @@ def create_sentence(docID, content, psn, lastGlobal):
 parser = optparse.OptionParser()
 parser.add_option('--source', '-s', action="store", dest="source", help="FULL ABSOLUTE PATH (yes because i'm lazy for now) to source csv with documents to add.", default=None)
 parser.add_option('--dest', '-d', action="store", dest="db", help="destination db", default=None)
+parser.add_option('--ids', '-i', action="store", dest="ids", help="(optional) file path to save ids of inserted documents", default=None)
 
 # parse command-line args
 options, args = parser.parse_args()
@@ -116,14 +119,31 @@ db_util = mongohq.Data_Utility('data', db_params.ALL_DBs[db_name])
 
 # TODO: add a better dupe check. here we skip if the title is literally duplicated by another doc already in the db
 # won't work for slight inconsistencies due to encoding, etc.
+
+inserted_docs = []
+
 for index, doc in source_docs.iterrows():
 
-    print "Inserting doc", doc['extID'], doc['title']
-    create_document(doc)
+    # print "Inserting doc", doc['extID'], doc['title']
+    # docID = create_document(doc)
+    # if docID is not None:
+    #     docData = doc
+    #     docData['db_id'] = docID
+    #     inserted_docs.append(docData)
 
-    # dupeDoc = db.documents.find_one({"title": doc['title']})
-    # if dupeDoc:
-    #     print "Inserting doc", doc['extID'], doc['title']
-    #     create_document(doc)
-    # else:
-    #     print "Skipping duplicated doc", doc['extID'], doc['title']
+    dupeDoc = db.documents.find_one({"title": doc['title']})
+    print dupeDoc
+    if dupeDoc == None:
+        print "Inserting doc", doc['extID'], doc['title']
+        docID = create_document(doc)
+        if docID is not None:
+            docData = doc
+            docData['db_id'] = docID
+            inserted_docs.append(docData)
+    else:
+        print "Skipping duplicated doc", doc['extID'], doc['title']
+
+inserted_docs = pd.DataFrame(inserted_docs)
+
+if options.ids is not None:
+    inserted_docs.to_csv(options.ids)
