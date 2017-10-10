@@ -35,7 +35,7 @@ class Document(HighlighterObject):
     def __init__(self, docPackage, data=None):
         super(Document, self).__init__(data)
         self.extID = docPackage['extID']
-        self.title = docPackage['title']
+        self.title = docPackage['title'].decode('utf-8', 'ignore').encode("ascii", "ignore")
         self.sentences = []
         self.sampledBy = []
         self.annotatedBy = []

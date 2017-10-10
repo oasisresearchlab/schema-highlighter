@@ -68,7 +68,7 @@ def create_sentence(docID, content, psn, lastGlobal):
         )
 
         # tokenize the sentence
-        tokens = word_tokenizer.tokenize(dbSent['content'])
+        tokens = word_tokenizer.tokenize(dbSent['content'].decode('utf-8', 'ignore').encode("ascii", "ignore"))
 
         # create the words
         wordIDs = []
@@ -110,7 +110,7 @@ source_docs = pd.read_csv(options.source)
 print source_docs.count()
 
 # break the content into sentences
-source_docs['sentences'] = [sent_tokenize(t) for t in source_docs['content']]
+source_docs['sentences'] = [sent_tokenize(t.decode('utf-8', 'ignore').encode("ascii", "ignore")) for t in source_docs['content']]
 
 # create db connection
 db_name = options.db
@@ -131,10 +131,10 @@ for index, doc in source_docs.iterrows():
     #     docData['db_id'] = docID
     #     inserted_docs.append(docData)
 
-    dupeDoc = db.documents.find_one({"title": doc['title']})
+    dupeDoc = db.documents.find_one({"title": doc['title'].decode('utf-8', 'ignore').encode("ascii", "ignore")})
     print dupeDoc
     if dupeDoc == None:
-        print "Inserting doc", doc['extID'], doc['title']
+        print "Inserting doc", doc['extID'], doc['title'].decode('utf-8', 'ignore').encode("ascii", "ignore")
         docID = create_document(doc)
         if docID is not None:
             docData = doc

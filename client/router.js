@@ -81,15 +81,18 @@ Router.map(function() {
         subscriptions: function() {
             // this.subscribe("documents", {_id: this.params.docID});
             this.subscribe("summaries");
-            this.subscribe("sentences", {docID: this.params.docID});
+            // this.subscribe("sentences", {docID: this.params.docID});
+            this.subscribe("docSentences", this.params.docID);
             // this.subscribe("words", {docID: this.params.docID});
         },
         waitOn: function() {
             // logger.trace("From waitOn, current words: " + JSON.stringify(Words.find({docID: doc._id}).fetch()));
             logger.debug("Subscribing to documents and words collection in waitOn...")
             return [
-              Meteor.subscribe("documents", {_id: this.params.docID}),
-              Meteor.subscribe("words", {docID: this.params.docID}),
+              // Meteor.subscribe("documents", {_id: this.params.docID}),
+              // Meteor.subscribe("words", {docID: this.params.docID}),
+              Meteor.subscribe("document", this.params.docID),
+              Meteor.subscribe("docWords", this.params.docID),
               // Meteor.subscribe("summaries"),
               // Meteor.subscribe("sentences", {docID: this.params.docID})
           ];
@@ -99,6 +102,9 @@ Router.map(function() {
             if(this.ready()) {
                 // var doc = DocumentManager.sampleDocument();
                 logger.debug("Ready! Setting session variables...");
+                logger.trace("Documents: " + JSON.stringify(Documents.find().fetch()))
+                logger.trace("Sentences: " + JSON.stringify(Sentences.find().fetch()))
+                logger.trace("Words: " + JSON.stringify(Words.find().fetch()))
                 var doc = Documents.findOne({_id: this.params.docID});
                 Session.set("currentDoc", doc);
                 $('.navbar-brand').text("Annotator: Welcome >> Tutorial >> Main Task");
