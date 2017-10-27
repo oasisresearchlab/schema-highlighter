@@ -13,7 +13,7 @@
 </template>
 
 <template name="annotateTask">
-    <h1>Document has been finished by {{numAnnotations}} total people</h1>
+    <!-- <h1>Document has been finished by {{numAnnotations}} total people</h1> -->
     <div class="row instructions">
         <!-- <p>Please read the product description below and help us:</p>
         <ol>
@@ -72,15 +72,19 @@
           </div>
         </div>
         <hr/>
-        <label>Highlight buttons:</label>
+        <label>Step 1: Identify and classify the purpose of the paper</label><br/>
+        <p>What "kind" of paper is this? I.e., what kind of purpose does the paper have?</p>
+        <textarea class="form-control" id="summ-purp-type" rows="1" placeholder="Write one of the following: system/method/model, empirical, hybrid (system/method/model + empirical), review paper, or other (feel free to specify)"></textarea><br/>
+        <p><i>NOTE: if the specific purpose of the paper is NOT either to create a system/method/model OR produce new empirical findings something (e.g., a review paper, a workshop/panel description), please feel free to go ahead and press "I'm finished" without adding highlights.</i></p>
+        <label>Step 2: Highlight the abstract</label>
         <br/>
         <div class="btn-group" role="group" aria-label="...">
-          <button type="button" class="btn btn-default background init-highlight">Highlight{{statusBackground}} background/implications</button>
-          <button type="button" class="btn btn-default purpose init-highlight">Highlight{{statusPurpose}} purpose</button>
-          <button type="button" class="btn btn-default mechanism init-highlight">Highlight{{statusMechanism}} mechanism</button>
-          <button type="button" class="btn btn-default finding init-highlight">Highlight{{statusFinding}} finding</button>
+          <button type="button" class="btn btn-default background init-highlight" data-toggle="tooltip" title="{{labelBackground}}">Highlight{{statusBackground}} background/implications</button>
+          <button type="button" class="btn btn-default purpose init-highlight" data-toggle="tooltip" title="{{labelPurpose}}" >Highlight{{statusPurpose}} purpose</button>
+          <button type="button" class="btn btn-default mechanism init-highlight" data-toggle="tooltip" title="{{labelMechanism}}">Highlight{{statusMechanism}} mechanism</button>
+          <button type="button" class="btn btn-default finding init-highlight" data-toggle="tooltip" title="{{labelFindings}}">Highlight{{statusFinding}} finding</button>
           <button type="button" class="btn btn-default unmark init-highlight">Unhighlight{{statusUnmark}}</button>
-          <!-- <button type="button" class="btn btn-default none init-highlight">Stop highlighting</button> -->
+          <button type="button" class="btn btn-default none init-highlight">Stop highlighting</button>
         </div>
         <p><span class="highlight-description" style="display:none;">{{highlightDescription}}</span></p>
     <!-- <div class="divider">
@@ -101,14 +105,25 @@
             {{/each}}
         </div>
         <div class="col-md-6 col-xs-6 summary">
-            <!-- <label>Notes (optional)</label>
-            <textarea class="form-control" id="summ-purp" rows="3" placeholder="Use this space to write any thoughts you have on the document while highlighting (e.g., is there anything weird about the abstract?)"></textarea>
-            <br/>
-            <label>Feedback (optional)</label>
-            <textarea class="form-control" id="summ-mech" rows="3" placeholder="Write any thoughts you had on the task design here. What did you like/dislike? How can we do better?"></textarea> -->
             <div class="controls">
+                <label>General thoughts (optional)</label>
+                <textarea class="form-control" id="summ-notes" rows="3" placeholder="Use this space to write any thoughts you have on the document while highlighting (e.g., is there anything weird about the abstract?)"></textarea>
+                <!-- <label>Highlight buttons:</label>
+                <br/>
+                <button type="button" class="btn btn-default background init-highlight">Highlight{{statusBackground}} background/implications</button>
+                {{> HighlightDescrBackground}}
+                <button type="button" class="btn btn-default purpose init-highlight">Highlight{{statusPurpose}} purpose</button>
+                {{> HighlightDescrPurpose}}
+                <button type="button" class="btn btn-default mechanism init-highlight">Highlight{{statusMechanism}} mechanism</button>
+                {{> HighlightDescrMechanism}}
+                <button type="button" class="btn btn-default finding init-highlight">Highlight{{statusFinding}} finding</button>
+                {{> HighlightDescrFinding}}
+                <button type="button" class="btn btn-default unmark init-highlight">Unhighlight{{statusUnmark}}</button><br/> -->
+
+                  <!-- <button type="button" class="btn btn-default none init-highlight">Stop highlighting</button> -->
                 <!-- take the user to confirmation page -->
                 <!-- <button class="finished btn btn-success">I'm finished!</button> -->
+                <br/>
                 <button type="button" class="finished btn btn-success btn-lg " id="load" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Processing Submission">I'm finished!</button>
                 <!-- take the user to confirmation page -->
                 <!-- <button class="another btn btn-default">Get me another!</button> -->

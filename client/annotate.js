@@ -15,6 +15,7 @@ var currentEnd = 0;
 Template.annotationPage.rendered = function(){
     logger.debug("Rendered annotation page...");
     Session.set("highlightState", "none");
+    $('.init-highlight').tooltip();
 }
 
 Template.annotationPage.helpers({
@@ -55,6 +56,18 @@ Template.annotateTask.helpers({
     numAnnotations: function() {
       var doc = Documents.findOne(Session.get("currentDoc")._id);
       return doc.annotatedBy.length;
+    },
+    labelBackground: function() {
+      return highlightDescriptions['background'];
+    },
+    labelPurpose: function() {
+      return highlightDescriptions['purpose'];
+    },
+    labelMechanism: function() {
+      return highlightDescriptions['mechanism'];
+    },
+    labelFindings: function() {
+      return highlightDescriptions['finding'];
     },
     highlightDescription: function() {
       if (!Session.equals("highlightState", "none")) {
@@ -118,7 +131,9 @@ Template.annotateTask.events({
         } else {
         }
         // button.classList.add("active-" + Session.get("highlightState"));
-        $('.highlight-description').addClass("key-" + Session.get("highlightState"));
+        // var descrSelect = "#descr-" + Session.get("highlightState");
+        var descrSelect = '.highlight-description'
+        $(descrSelect).addClass("key-" + Session.get("highlightState"));
       } else {
         Session.set("highlightState", "unmark");
         $('.highlight-description').hide();
@@ -301,7 +316,8 @@ var finishTask = function() {
   var user = Session.get("currentUser");
   var doc = Session.get("currentDoc");
   Meteor.call("writeSummary", doc, "Highlights", LocalWords.find({docID: doc._id}).fetch(), user); // remove non-blocking for performance improvements
-
+  Meteor.call("writeSummary", doc, "Notes", {'purpose_type': $('#summ-purp-type').val(),
+                                             'notes': $('#summ-notes').val()}, user); // remove non-blocking for performance improvements
   // move to the last page
   alert("Finished! Going to last page next")
   DocumentManager.markAnnotatedBy(doc,

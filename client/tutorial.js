@@ -287,13 +287,13 @@ var highlightType = function(word) {
   return result;
 }
 
-highlightDescriptions = {
-  "purpose": "What do the paper's authors want to do or know?",
-  "mechanism": "How did the paper's authors do it or find out?",
-  "finding": "Did it work? What did the paper's authors find out?",
-  "background": "What is the intellectual context of this work? What other (higher-level) goals/questions can be furthered by this work? How might this help other research(ers)?",
-  "unmark": "",
-}
+// highlightDescriptions = {
+//   "purpose": "What do the paper's authors want to do or know?",
+//   "mechanism": "How did the paper's authors do it or find out?",
+//   "finding": "Did it work? What did the paper's authors find out?",
+//   "background": "What is the intellectual context of this work? What other (higher-level) goals/questions can be furthered by this work? How might this help other research(ers)?",
+//   "unmark": "",
+// }
 
 goldTutorialWords = [
   {
