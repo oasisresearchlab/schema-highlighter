@@ -66,6 +66,9 @@ Template.annotateTask.helpers({
     labelMechanism: function() {
       return highlightDescriptions['mechanism'];
     },
+    labelMethod: function() {
+      return highlightDescriptions['method'];
+    },
     labelFindings: function() {
       return highlightDescriptions['finding'];
     },
@@ -92,6 +95,13 @@ Template.annotateTask.helpers({
     },
     statusMechanism: function() {
       if (Session.equals("highlightState", "mechanism")) {
+        return "ing";
+      } else {
+        return "";
+      }
+    },
+    statusMethod: function() {
+      if (Session.equals("highlightState", "method")) {
         return "ing";
       } else {
         return "";
@@ -124,6 +134,8 @@ Template.annotateTask.events({
           Session.set("highlightState", "purpose");
         } else if (isInList("mechanism", button.classList)) {
           Session.set("highlightState", "mechanism");
+        } else if (isInList("method", button.classList)) {
+          Session.set("highlightState", "method");
         } else if (isInList("finding", button.classList)) {
           Session.set("highlightState", "finding");
         } else if (isInList("background", button.classList)) {
@@ -217,6 +229,8 @@ Template.word.helpers({
           return "key-purpose";
       } else if (isInList(userID, this.highlightsMechanism)) {
           return "key-mechanism"
+      } else if (isInList(userID, this.highlightsMethod)) {
+          return "key-method"
       } else if (isInList(userID, this.highlightsFindings)) {
           return "key-finding"
       } else if (isInList(userID, this.highlightsBackground)) {
@@ -343,6 +357,7 @@ markWord = function(wordID) {
         logger.debug("Adding " + userID + " to highlightsPurpose for " + wordID);
         LocalWords.update({_id: wordID},{$addToSet: {highlightsPurpose: userID}});
         LocalWords.update({_id: wordID},{$pull: {highlightsMechanism: userID}});
+        LocalWords.update({_id: wordID},{$pull: {highlightsMethod: userID}});
         LocalWords.update({_id: wordID},{$pull: {highlightsFindings: userID}});
         LocalWords.update({_id: wordID},{$pull: {highlightsBackground: userID}});
         // EventLogger.logMarkPurpose(wordID, previousState);
@@ -350,6 +365,15 @@ markWord = function(wordID) {
         logger.debug("Adding " + userID + " to highlightsMechanism for " + wordID);
         LocalWords.update({_id: wordID},{$pull: {highlightsPurpose: userID}});
         LocalWords.update({_id: wordID},{$addToSet: {highlightsMechanism: userID}});
+        LocalWords.update({_id: wordID},{$pull: {highlightsMethod: userID}});
+        LocalWords.update({_id: wordID},{$pull: {highlightsFindings: userID}});
+        LocalWords.update({_id: wordID},{$pull: {highlightsBackground: userID}});
+        // EventLogger.logMarkMechanism(wordID, previousState);
+    } else if (highlightType === "method") {
+        logger.debug("Adding " + userID + " to highlightsMechanism for " + wordID);
+        LocalWords.update({_id: wordID},{$pull: {highlightsPurpose: userID}});
+        LocalWords.update({_id: wordID},{$pull: {highlightsMechanism: userID}});
+        LocalWords.update({_id: wordID},{$addToSet: {highlightsMethod: userID}});
         LocalWords.update({_id: wordID},{$pull: {highlightsFindings: userID}});
         LocalWords.update({_id: wordID},{$pull: {highlightsBackground: userID}});
         // EventLogger.logMarkMechanism(wordID, previousState);
@@ -357,6 +381,7 @@ markWord = function(wordID) {
         logger.debug("Adding " + userID + " to highlightsFinding for " + wordID);
         LocalWords.update({_id: wordID},{$pull: {highlightsPurpose: userID}});
         LocalWords.update({_id: wordID},{$pull: {highlightsMechanism: userID}});
+        LocalWords.update({_id: wordID},{$pull: {highlightsMethod: userID}});
         LocalWords.update({_id: wordID},{$addToSet: {highlightsFindings: userID}});
         LocalWords.update({_id: wordID},{$pull: {highlightsBackground: userID}});
         // EventLogger.logMarkFinding(wordID, previousState);
@@ -364,6 +389,7 @@ markWord = function(wordID) {
         logger.debug("Adding " + userID + " to highlightsBackground for " + wordID);
         LocalWords.update({_id: wordID},{$pull: {highlightsPurpose: userID}});
         LocalWords.update({_id: wordID},{$pull: {highlightsMechanism: userID}});
+        LocalWords.update({_id: wordID},{$pull: {highlightsMethod: userID}});
         LocalWords.update({_id: wordID},{$pull: {highlightsFindings: userID}});
         LocalWords.update({_id: wordID},{$addToSet: {highlightsBackground: userID}});
         // EventLogger.logMarkBackground(wordID, previousState);
@@ -371,6 +397,7 @@ markWord = function(wordID) {
         logger.debug("Neither: un-annotating");
         LocalWords.update({_id: wordID},{$pull: {highlightsPurpose: userID}});
         LocalWords.update({_id: wordID},{$pull: {highlightsMechanism: userID}});
+        LocalWords.update({_id: wordID},{$pull: {highlightsMethod: userID}});
         LocalWords.update({_id: wordID},{$pull: {highlightsFindings: userID}});
         LocalWords.update({_id: wordID},{$pull: {highlightsBackground: userID}});
         // EventLogger.logUnmarkWord(wordID, previousState);

@@ -18,6 +18,10 @@
     background-color: rgb(194, 240, 194) !important;
 }
 
+.key-method {
+  background-color: #e3d6ff !important;
+}
+
 .key-finding {
     background-color: #66b3ff !important;
 }
@@ -32,6 +36,10 @@
 
 .active-mechanism {
     background-color: rgb(194, 240, 194) !important;
+}
+
+.active-method {
+    background-color: #e3d6ff !important;
 }
 
 .active-finding {

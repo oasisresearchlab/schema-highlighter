@@ -8,9 +8,23 @@ Logger.setLevel('Server:server-functions', 'trace');
 Meteor.methods({
     writeSummary: function(doc, sumType, content, user) {
         logger.trace("Calling write summary on the server");
-        return [
-          DocumentManager.addSummary(doc, sumType, content, user),
-          WordManager.updateWords(doc, content, user)
-        ];
+        if (sumType === "Highlights") {
+          return [
+            DocumentManager.addSummary(doc, sumType, content, user),
+            WordManager.updateWords(doc, content, user)
+          ];
+        } else {
+          return [
+            DocumentManager.addSummary(doc, sumType, content, user),
+          ];
+        }
     },
+    addWordsHighlightField: function(fieldName) {
+      var allWords = Words.find().fetch();
+      allWords.forEach(function(word) {
+        var operation = {}
+        operation[fieldName] = [];
+        Words.update({_id: word._id},{$set: operation})
+      })
+    }
 });
