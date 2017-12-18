@@ -11,6 +11,7 @@ import sys
 import file_manager
 from db_params import *
 import logging
+import optparse
 
 
 logging.basicConfig(format='%(levelname)s:%(message)s',
@@ -18,6 +19,10 @@ logging.basicConfig(format='%(levelname)s:%(message)s',
 
 logger = logging.getLogger("mongodb utility")
 
+# parser = optparse.OptionParser()
+# parser.add_option('--operation', '-o', action="store", dest="operation", help="operation", default=None)
+# parser.add_option('--db', '-d', action="store", dest="db", help="db name", default=None)
+# parser.add_option('--path', '-p', action="store", dest="path", help="where to store data", default=None)
 
 def get_db(db=None):
   """
@@ -261,15 +266,31 @@ def parse_args(args):
 
 
 if __name__ == '__main__':
+
+    parser = optparse.OptionParser()
+    parser.add_option('--operation', '-o', action="store", dest="operation", help="operation", default=None)
+    parser.add_option('--db', '-d', action="store", dest="db", help="db name", default=None)
+    parser.add_option('--path', '-p', action="store", dest="path", help="where to store data", default=None)
+    # print parser
+    # print sys.argv
+
+    options, args = parser.parse_args()
+
+    # print args
+
     # get_amd_data(sys.argv[1:])
     if len(sys.argv[1:]) >= 1:
+    # if len(args) >= 1:
       # Perform desired db operations based on command line arguments
-      parse_args(sys.argv[1:])
+    #   parse_args(sys.argv[1:])
+      parse_args([
+        options.db,
+        options.path,
+        options.operation
+      ])
     else:
       # Rudimentary script to dump to db as we previously were doing
       util = Data_Utility('data/amd3-2', ALL_DBs['ideagensscd'])
       util.clear_db()
       util.restore_db()
       # util.dump_db()
-
-

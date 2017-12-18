@@ -86,6 +86,7 @@ class Word(HighlighterObject):
 
         self.highlightsPurpose = []
         self.highlightsMechanism = []
+        self.highlightsMethod = []
         self.highlightsFindings = []
         self.highlightsBackground = []
 
