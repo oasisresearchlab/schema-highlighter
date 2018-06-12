@@ -297,1890 +297,2960 @@ var highlightType = function(word) {
 
 goldTutorialWords = [
   {
-    "globalPsn": 0,
-    "highlightsFindings": [],
-    "content": "Though",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [
-      "gold"
-    ],
-    "_id": "word-0"
+     "globalpsn":0
+    ,"highlightsFindings":[]
+    ,"content":"Researchers"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":["gold"]
+    ,"_id":"word-0"
   },
   {
-    "globalPsn": 1,
-    "highlightsFindings": [],
-    "content": "toolkits",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [
-      "gold"
-    ],
-    "_id": "word-1"
+     "globalpsn":1
+    ,"highlightsFindings":[]
+    ,"content":"and"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":["gold"]
+    ,"_id":"word-1"
   },
   {
-    "globalPsn": 2,
-    "highlightsFindings": [],
-    "content": "exist",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [
-      "gold"
-    ],
-    "_id": "word-2"
+     "globalpsn":2
+    ,"highlightsFindings":[]
+    ,"content":"theorists"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":["gold"]
+    ,"_id":"word-2"
   },
   {
-    "globalPsn": 3,
-    "highlightsFindings": [],
-    "content": "to",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [
-      "gold"
-    ],
-    "_id": "word-3"
+     "globalpsn":3
+    ,"highlightsFindings":[]
+    ,"content":"have"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":["gold"]
+    ,"_id":"word-3"
   },
   {
-    "globalPsn": 4,
-    "highlightsFindings": [],
-    "content": "create",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [
-      "gold"
-    ],
-    "_id": "word-4"
+     "globalpsn":4
+    ,"highlightsFindings":[]
+    ,"content":"proposed"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":["gold"]
+    ,"_id":"word-4"
   },
   {
-    "globalPsn": 5,
-    "highlightsFindings": [],
-    "content": "complex",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [
-      "gold"
-    ],
-    "_id": "word-5"
+     "globalpsn":5
+    ,"highlightsFindings":[]
+    ,"content":"that"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-5"
   },
   {
-    "globalPsn": 6,
-    "highlightsFindings": [],
-    "content": "crowdsourced",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [
-      "gold"
-    ],
-    "_id": "word-6"
+     "globalpsn":6
+    ,"highlightsFindings":[]
+    ,"content":"feelings"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-6"
   },
   {
-    "globalPsn": 7,
-    "highlightsFindings": [],
-    "content": "workflows,",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [
-      "gold"
-    ],
-    "_id": "word-7"
+     "globalpsn":7
+    ,"highlightsFindings":[]
+    ,"content":"of"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-7"
   },
   {
-    "globalPsn": 8,
-    "highlightsFindings": [],
-    "content": "there",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [
-      "gold"
-    ],
-    "_id": "word-8"
+     "globalpsn":8
+    ,"highlightsFindings":[]
+    ,"content":"attachment"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-8"
   },
   {
-    "globalPsn": 9,
-    "highlightsFindings": [],
-    "content": "is",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [
-      "gold"
-    ],
-    "_id": "word-9"
+     "globalpsn":9
+    ,"highlightsFindings":[]
+    ,"content":"to"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-9"
   },
   {
-    "globalPsn": 10,
-    "highlightsFindings": [],
-    "content": "limited",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [
-      "gold"
-    ],
-    "_id": "word-10"
+     "globalpsn":10
+    ,"highlightsFindings":[]
+    ,"content":"subgroups"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-10"
   },
   {
-    "globalPsn": 11,
-    "highlightsFindings": [],
-    "content": "support",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [
-      "gold"
-    ],
-    "_id": "word-11"
+     "globalpsn":11
+    ,"highlightsFindings":[]
+    ,"content":"within"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-11"
   },
   {
-    "globalPsn": 12,
-    "highlightsFindings": [],
-    "content": "for",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [
-      "gold"
-    ],
-    "_id": "word-12"
+     "globalpsn":12
+    ,"highlightsFindings":[]
+    ,"content":"a"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-12"
   },
   {
-    "globalPsn": 13,
-    "highlightsFindings": [],
-    "content": "management",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [
-      "gold"
-    ],
-    "_id": "word-13"
+     "globalpsn":13
+    ,"highlightsFindings":[]
+    ,"content":"larger"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-13"
   },
   {
-    "globalPsn": 14,
-    "highlightsFindings": [],
-    "content": "of",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [
-      "gold"
-    ],
-    "_id": "word-14"
+     "globalpsn":14
+    ,"highlightsFindings":[]
+    ,"content":"online"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-14"
   },
   {
-    "globalPsn": 15,
-    "highlightsFindings": [],
-    "content": "those",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [
-      "gold"
-    ],
-    "_id": "word-15"
+     "globalpsn":15
+    ,"highlightsFindings":[]
+    ,"content":"community"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-15"
   },
   {
-    "globalPsn": 16,
-    "highlightsFindings": [],
-    "content": "workflows.",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [
-      "gold"
-    ],
-    "_id": "word-16"
+     "globalpsn":16
+    ,"highlightsFindings":[]
+    ,"content":"or"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-16"
   },
   {
-    "globalPsn": 17,
-    "highlightsFindings": [],
-    "content": "Managing",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [
-      "gold"
-    ],
-    "highlightsBackground": [],
-    "_id": "word-17"
+     "globalpsn":17
+    ,"highlightsFindings":[]
+    ,"content":"site"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-17"
   },
   {
-    "globalPsn": 18,
-    "highlightsFindings": [],
-    "content": "crowd",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [
-      "gold"
-    ],
-    "highlightsBackground": [],
-    "_id": "word-18"
+     "globalpsn":18
+    ,"highlightsFindings":[]
+    ,"content":"can"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-18"
   },
   {
-    "globalPsn": 19,
-    "highlightsFindings": [],
-    "content": "workers",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [
-      "gold"
-    ],
-    "highlightsBackground": [],
-    "_id": "word-19"
+     "globalpsn":19
+    ,"highlightsFindings":[]
+    ,"content":"increase"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-19"
   },
   {
-    "globalPsn": 20,
-    "highlightsFindings": [],
-    "content": "and",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [
-      "gold"
-    ],
-    "highlightsBackground": [],
-    "_id": "word-20"
+     "globalpsn":20
+    ,"highlightsFindings":[]
+    ,"content":"users"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-20"
   },
   {
-    "globalPsn": 21,
-    "highlightsFindings": [],
-    "content": "tasks",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [
-      "gold"
-    ],
-    "highlightsBackground": [],
-    "_id": "word-21"
+     "globalpsn":21
+    ,"highlightsFindings":[]
+    ,"content":"'"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-21"
   },
   {
-    "globalPsn": 22,
-    "highlightsFindings": [],
-    "content": "requires",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [
-      "gold"
-    ],
-    "highlightsBackground": [],
-    "_id": "word-22"
+     "globalpsn":22
+    ,"highlightsFindings":[]
+    ,"content":"loyalty"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-22"
   },
   {
-    "globalPsn": 23,
-    "highlightsFindings": [],
-    "content": "significant",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [
-      "gold"
-    ],
-    "highlightsBackground": [],
-    "_id": "word-23"
+     "globalpsn":23
+    ,"highlightsFindings":[]
+    ,"content":"to"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-23"
   },
   {
-    "globalPsn": 24,
-    "highlightsFindings": [],
-    "content": "iteration",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [
-      "gold"
-    ],
-    "highlightsBackground": [],
-    "_id": "word-24"
+     "globalpsn":24
+    ,"highlightsFindings":[]
+    ,"content":"the"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-24"
   },
   {
-    "globalPsn": 25,
-    "highlightsFindings": [],
-    "content": "and",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [
-      "gold"
-    ],
-    "highlightsBackground": [],
-    "_id": "word-25"
+     "globalpsn":25
+    ,"highlightsFindings":[]
+    ,"content":"site"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-25"
   },
   {
-    "globalPsn": 26,
-    "highlightsFindings": [],
-    "content": "experimentation",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [
-      "gold"
-    ],
-    "highlightsBackground": [],
-    "_id": "word-26"
+     "globalpsn":26
+    ,"highlightsFindings":[]
+    ,"content":"."
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-26"
   },
   {
-    "globalPsn": 27,
-    "highlightsFindings": [],
-    "content": "on",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [
-      "gold"
-    ],
-    "highlightsBackground": [],
-    "_id": "word-27"
+     "globalpsn":27
+    ,"highlightsFindings":[]
+    ,"content":"They"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":["gold"]
+    ,"_id":"word-27"
   },
   {
-    "globalPsn": 28,
-    "highlightsFindings": [],
-    "content": "task",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [
-      "gold"
-    ],
-    "highlightsBackground": [],
-    "_id": "word-28"
+     "globalpsn":28
+    ,"highlightsFindings":[]
+    ,"content":"have"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":["gold"]
+    ,"_id":"word-28"
   },
   {
-    "globalPsn": 29,
-    "highlightsFindings": [],
-    "content": "instructions,",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [
-      "gold"
-    ],
-    "highlightsBackground": [],
-    "_id": "word-29"
+     "globalpsn":29
+    ,"highlightsFindings":[]
+    ,"content":"identified"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":["gold"]
+    ,"_id":"word-29"
   },
   {
-    "globalPsn": 30,
-    "highlightsFindings": [],
-    "content": "rewards,",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [
-      "gold"
-    ],
-    "highlightsBackground": [],
-    "_id": "word-30"
+     "globalpsn":30
+    ,"highlightsFindings":[]
+    ,"content":"two"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-30"
   },
   {
-    "globalPsn": 31,
-    "highlightsFindings": [],
-    "content": "and",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [
-      "gold"
-    ],
-    "highlightsBackground": [],
-    "_id": "word-31"
+     "globalpsn":31
+    ,"highlightsFindings":[]
+    ,"content":"types"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-31"
   },
   {
-    "globalPsn": 32,
-    "highlightsFindings": [],
-    "content": "flows.",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [
-      "gold"
-    ],
-    "highlightsBackground": [],
-    "_id": "word-32"
+     "globalpsn":32
+    ,"highlightsFindings":[]
+    ,"content":"of"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-32"
   },
   {
-    "globalPsn": 33,
-    "highlightsFindings": [],
-    "content": "We",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [
-      "gold"
-    ],
-    "highlightsBackground": [],
-    "_id": "word-33"
+     "globalpsn":33
+    ,"highlightsFindings":[]
+    ,"content":"attachment,"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-33"
   },
   {
-    "globalPsn": 34,
-    "highlightsFindings": [],
-    "content": "present",
-    "highlightsMechanism": [
+     "globalpsn":34
+    ,"highlightsFindings":[]
+    ,"content":"with"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-34"
+  },
+  {
+     "globalpsn":35
+    ,"highlightsFindings":[]
+    ,"content":"distinct"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-35"
+  },
+  {
+     "globalpsn":36
+    ,"highlightsFindings":[]
+    ,"content":"causes"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-36"
+  },
+  {
+     "globalpsn":37
+    ,"highlightsFindings":[]
+    ,"content":"and"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-37"
+  },
+  {
+     "globalpsn":38
+    ,"highlightsFindings":[]
+    ,"content":"consequences"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-38"
+  },
+  {
+     "globalpsn":39
+    ,"highlightsFindings":[]
+    ,"content":"."
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-39"
+  },
+  {
+     "globalpsn":40
+    ,"highlightsFindings":[]
+    ,"content":"With"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-40"
+  },
+  {
+     "globalpsn":41
+    ,"highlightsFindings":[]
+    ,"content":"bond-based"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-41"
+  },
+  {
+     "globalpsn":42
+    ,"highlightsFindings":[]
+    ,"content":"attachment,"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-42"
+  },
+  {
+     "globalpsn":43
+    ,"highlightsFindings":[]
+    ,"content":"people"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-43"
+  },
+  {
+     "globalpsn":44
+    ,"highlightsFindings":[]
+    ,"content":"feel"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-44"
+  },
+  {
+     "globalpsn":45
+    ,"highlightsFindings":[]
+    ,"content":"connections"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-45"
+  },
+  {
+     "globalpsn":46
+    ,"highlightsFindings":[]
+    ,"content":"to"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-46"
+  },
+  {
+     "globalpsn":47
+    ,"highlightsFindings":[]
+    ,"content":"other"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-47"
+  },
+  {
+     "globalpsn":48
+    ,"highlightsFindings":[]
+    ,"content":"group"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-48"
+  },
+  {
+     "globalpsn":49
+    ,"highlightsFindings":[]
+    ,"content":"members,"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-49"
+  },
+  {
+     "globalpsn":50
+    ,"highlightsFindings":[]
+    ,"content":"while"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-50"
+  },
+  {
+     "globalpsn":51
+    ,"highlightsFindings":[]
+    ,"content":"with"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-51"
+  },
+  {
+     "globalpsn":52
+    ,"highlightsFindings":[]
+    ,"content":"identity-based"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-52"
+  },
+  {
+     "globalpsn":53
+    ,"highlightsFindings":[]
+    ,"content":"attachment"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-53"
+  },
+  {
+     "globalpsn":54
+    ,"highlightsFindings":[]
+    ,"content":"they"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-54"
+  },
+  {
+     "globalpsn":55
+    ,"highlightsFindings":[]
+    ,"content":"feel"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-55"
+  },
+  {
+     "globalpsn":56
+    ,"highlightsFindings":[]
+    ,"content":"connections"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-56"
+  },
+  {
+     "globalpsn":57
+    ,"highlightsFindings":[]
+    ,"content":"to"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-57"
+  },
+  {
+     "globalpsn":58
+    ,"highlightsFindings":[]
+    ,"content":"the"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-58"
+  },
+  {
+     "globalpsn":59
+    ,"highlightsFindings":[]
+    ,"content":"group"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-59"
+  },
+  {
+     "globalpsn":60
+    ,"highlightsFindings":[]
+    ,"content":"as"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-60"
+  },
+  {
+     "globalpsn":61
+    ,"highlightsFindings":[]
+    ,"content":"a"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-61"
+  },
+  {
+     "globalpsn":62
+    ,"highlightsFindings":[]
+    ,"content":"whole"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-62"
+  },
+  {
+     "globalpsn":63
+    ,"highlightsFindings":[]
+    ,"content":"."
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-63"
+  },
+  {
+     "globalpsn":64
+    ,"highlightsFindings":[]
+    ,"content":"In"
+    ,"highlightsMechanism":["gold"]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-64"
+  },
+  {
+     "globalpsn":65
+    ,"highlightsFindings":[]
+    ,"content":"two"
+    ,"highlightsMechanism":["gold"]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-65"
+  },
+  {
+     "globalpsn":66
+    ,"highlightsFindings":[]
+    ,"content":"experiments"
+    ,"highlightsMechanism":["gold"]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-66"
+  },
+  {
+     "globalpsn":67
+    ,"highlightsFindings":[]
+    ,"content":"we"
+    ,"highlightsMechanism":["gold"]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-67"
+  },
+  {
+     "globalpsn":68
+    ,"highlightsFindings":[]
+    ,"content":"show"
+    ,"highlightsMechanism":["gold"]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-68"
+  },
+  {
+     "globalpsn":69
+    ,"highlightsFindings":[]
+    ,"content":"that"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-69"
+  },
+  {
+     "globalpsn":70
+    ,"highlightsFindings":[]
+    ,"content":"these"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-70"
+  },
+  {
+     "globalpsn":71
+    ,"highlightsFindings":[]
+    ,"content":"feelings"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-71"
+  },
+  {
+     "globalpsn":72
+    ,"highlightsFindings":[]
+    ,"content":"of"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-72"
+  },
+  {
+     "globalpsn":73
+    ,"highlightsFindings":[]
+    ,"content":"attachment"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-73"
+  },
+  {
+     "globalpsn":74
+    ,"highlightsFindings":[]
+    ,"content":"to"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-74"
+  },
+  {
+     "globalpsn":75
+    ,"highlightsFindings":[]
+    ,"content":"subgroups"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-75"
+  },
+  {
+     "globalpsn":76
+    ,"highlightsFindings":["gold"]
+    ,"content":"increase"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-76"
+  },
+  {
+     "globalpsn":77
+    ,"highlightsFindings":[]
+    ,"content":"loyalty"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-77"
+  },
+  {
+     "globalpsn":78
+    ,"highlightsFindings":[]
+    ,"content":"to"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-78"
+  },
+  {
+     "globalpsn":79
+    ,"highlightsFindings":[]
+    ,"content":"the"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-79"
+  },
+  {
+     "globalpsn":80
+    ,"highlightsFindings":[]
+    ,"content":"larger"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-80"
+  },
+  {
+     "globalpsn":81
+    ,"highlightsFindings":[]
+    ,"content":"community"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-81"
+  },
+  {
+     "globalpsn":82
+    ,"highlightsFindings":[]
+    ,"content":"."
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-82"
+  },
+  {
+     "globalpsn":83
+    ,"highlightsFindings":[]
+    ,"content":"Communication"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-83"
+  },
+  {
+     "globalpsn":84
+    ,"highlightsFindings":[]
+    ,"content":"with"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-84"
+  },
+  {
+     "globalpsn":85
+    ,"highlightsFindings":[]
+    ,"content":"other"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-85"
+  },
+  {
+     "globalpsn":86
+    ,"highlightsFindings":[]
+    ,"content":"people"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-86"
+  },
+  {
+     "globalpsn":87
+    ,"highlightsFindings":[]
+    ,"content":"in"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-87"
+  },
+  {
+     "globalpsn":88
+    ,"highlightsFindings":[]
+    ,"content":"a"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-88"
+  },
+  {
+     "globalpsn":89
+    ,"highlightsFindings":[]
+    ,"content":"subgroup"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-89"
+  },
+  {
+     "globalpsn":90
+    ,"highlightsFindings":[]
+    ,"content":"but"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-90"
+  },
+  {
+     "globalpsn":91
+    ,"highlightsFindings":[]
+    ,"content":"not"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-91"
+  },
+  {
+     "globalpsn":92
+    ,"highlightsFindings":[]
+    ,"content":"simple"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-92"
+  },
+  {
+     "globalpsn":93
+    ,"highlightsFindings":[]
+    ,"content":"awareness"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-93"
+  },
+  {
+     "globalpsn":94
+    ,"highlightsFindings":[]
+    ,"content":"of"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-94"
+  },
+  {
+     "globalpsn":95
+    ,"highlightsFindings":[]
+    ,"content":"them"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-95"
+  },
+  {
+     "globalpsn":96
+    ,"highlightsFindings":[]
+    ,"content":"increases"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-96"
+  },
+  {
+     "globalpsn":97
+    ,"highlightsFindings":[]
+    ,"content":"attachment"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-97"
+  },
+  {
+     "globalpsn":98
+    ,"highlightsFindings":[]
+    ,"content":"to"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-98"
+  },
+  {
+     "globalpsn":99
+    ,"highlightsFindings":[]
+    ,"content":"the"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-99"
+  },
+  {
+     "globalpsn":100
+    ,"highlightsFindings":[]
+    ,"content":"larger"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-100"
+  },
+  {
+     "globalpsn":101
+    ,"highlightsFindings":[]
+    ,"content":"community"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-101"
+  },
+  {
+     "globalpsn":102
+    ,"highlightsFindings":[]
+    ,"content":"."
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-102"
+  },
+  {
+     "globalpsn":103
+    ,"highlightsFindings":[]
+    ,"content":"By"
+    ,"highlightsMechanism":["gold"]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-103"
+  },
+  {
+     "globalpsn":104
+    ,"highlightsFindings":[]
+    ,"content":"varying"
+    ,"highlightsMechanism":["gold"]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-104"
+  },
+  {
+     "globalpsn":105
+    ,"highlightsFindings":[]
+    ,"content":"how"
+    ,"highlightsMechanism":["gold"]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-105"
+  },
+  {
+     "globalpsn":106
+    ,"highlightsFindings":[]
+    ,"content":"the"
+    ,"highlightsMechanism":["gold"]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-106"
+  },
+  {
+     "globalpsn":107
+    ,"highlightsFindings":[]
+    ,"content":"communication"
+    ,"highlightsMechanism":["gold"]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-107"
+  },
+  {
+     "globalpsn":108
+    ,"highlightsFindings":[]
+    ,"content":"is"
+    ,"highlightsMechanism":["gold"]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-108"
+  },
+  {
+     "globalpsn":109
+    ,"highlightsFindings":[]
+    ,"content":"structured,"
+    ,"highlightsMechanism":["gold"]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-109"
+  },
+  {
+     "globalpsn":110
+    ,"highlightsFindings":[]
+    ,"content":"between"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-110"
+  },
+  {
+     "globalpsn":111
+    ,"highlightsFindings":[]
+    ,"content":"dyads"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-111"
+  },
+  {
+     "globalpsn":112
+    ,"highlightsFindings":[]
+    ,"content":"or"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-112"
+  },
+  {
+     "globalpsn":113
+    ,"highlightsFindings":[]
+    ,"content":"with"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-113"
+  },
+  {
+     "globalpsn":114
+    ,"highlightsFindings":[]
+    ,"content":"all"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-114"
+  },
+  {
+     "globalpsn":115
+    ,"highlightsFindings":[]
+    ,"content":"group"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-115"
+  },
+  {
+     "globalpsn":116
+    ,"highlightsFindings":[]
+    ,"content":"members"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-116"
+  },
+  {
+     "globalpsn":117
+    ,"highlightsFindings":[]
+    ,"content":"simultaneously,"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-117"
+  },
+  {
+     "globalpsn":118
+    ,"highlightsFindings":["gold"]
+    ,"content":"the"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-118"
+  },
+  {
+     "globalpsn":119
+    ,"highlightsFindings":["gold"]
+    ,"content":"experiments"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-119"
+  },
+  {
+     "globalpsn":120
+    ,"highlightsFindings":["gold"]
+    ,"content":"show"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-120"
+  },
+  {
+     "globalpsn":121
+    ,"highlightsFindings":["gold"]
+    ,"content":"that"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-121"
+  },
+  {
+     "globalpsn":122
+    ,"highlightsFindings":[]
+    ,"content":"bond-"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-122"
+  },
+  {
+     "globalpsn":123
+    ,"highlightsFindings":[]
+    ,"content":"and"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-123"
+  },
+  {
+     "globalpsn":124
+    ,"highlightsFindings":[]
+    ,"content":"identity-based"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-124"
+  },
+  {
+     "globalpsn":125
+    ,"highlightsFindings":[]
+    ,"content":"attachment"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-125"
+  },
+  {
+     "globalpsn":126
+    ,"highlightsFindings":[]
+    ,"content":"have"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-126"
+  },
+  {
+     "globalpsn":127
+    ,"highlightsFindings":[]
+    ,"content":"different"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-127"
+  },
+  {
+     "globalpsn":128
+    ,"highlightsFindings":[]
+    ,"content":"causes"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-128"
+  },
+  {
+     "globalpsn":129
+    ,"highlightsFindings":[]
+    ,"content":"."
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-129"
+  },
+  {
+     "globalpsn":130
+    ,"highlightsFindings":[]
+    ,"content":"But"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-130"
+  },
+  {
+     "globalpsn":131
+    ,"highlightsFindings":[]
+    ,"content":"the"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-131"
+  },
+  {
+     "globalpsn":132
+    ,"highlightsFindings":[]
+    ,"content":"experiments"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-132"
+  },
+  {
+     "globalpsn":133
+    ,"highlightsFindings":[]
+    ,"content":"show"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-133"
+  },
+  {
+     "globalpsn":134
+    ,"highlightsFindings":[]
+    ,"content":"no"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-134"
+  },
+  {
+     "globalpsn":135
+    ,"highlightsFindings":[]
+    ,"content":"evidence"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-135"
+  },
+  {
+     "globalpsn":136
+    ,"highlightsFindings":[]
+    ,"content":"that"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-136"
+  },
+  {
+     "globalpsn":137
+    ,"highlightsFindings":[]
+    ,"content":"bond"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-137"
+  },
+  {
+     "globalpsn":138
+    ,"highlightsFindings":[]
+    ,"content":"and"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-138"
+  },
+  {
+     "globalpsn":139
+    ,"highlightsFindings":[]
+    ,"content":"identity"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-139"
+  },
+  {
+     "globalpsn":140
+    ,"highlightsFindings":[]
+    ,"content":"attachment"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-140"
+  },
+  {
+     "globalpsn":141
+    ,"highlightsFindings":[]
+    ,"content":"have"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-141"
+  },
+  {
+     "globalpsn":142
+    ,"highlightsFindings":[]
+    ,"content":"different"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-142"
+  },
+  {
+     "globalpsn":143
+    ,"highlightsFindings":[]
+    ,"content":"consequences"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-143"
+  },
+  {
+     "globalpsn":144
+    ,"highlightsFindings":[]
+    ,"content":"."
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-144"
+  },
+  {
+     "globalpsn":145
+    ,"highlightsFindings":[]
+    ,"content":"We"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-145"
+  },
+  {
+     "globalpsn":146
+    ,"highlightsFindings":[]
+    ,"content":"consider"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":["gold"]
+    ,"highlightsBackground":[]
+    ,"_id":"word-146"
+  },
+  {
+     "globalpsn":147
+    ,"highlightsFindings":[]
+    ,"content":"both"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-147"
+  },
+  {
+     "globalpsn":148
+    ,"highlightsFindings":[]
+    ,"content":"theoretical"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-148"
+  },
+  {
+     "globalpsn":149
+    ,"highlightsFindings":[]
+    ,"content":"and"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-149"
+  },
+  {
+     "globalpsn":150
+    ,"highlightsFindings":[]
+    ,"content":"methodological"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-150"
+  },
+  {
+     "globalpsn":151
+    ,"highlightsFindings":[]
+    ,"content":"reasons"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-151"
+  },
+  {
+     "globalpsn":152
+    ,"highlightsFindings":[]
+    ,"content":"why"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-152"
+  },
+  {
+     "globalpsn":153
+    ,"highlightsFindings":[]
+    ,"content":"the"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-153"
+  },
+  {
+     "globalpsn":154
+    ,"highlightsFindings":[]
+    ,"content":"consequences"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-154"
+  },
+  {
+     "globalpsn":155
+    ,"highlightsFindings":[]
+    ,"content":"of"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-155"
+  },
+  {
+     "globalpsn":156
+    ,"highlightsFindings":[]
+    ,"content":"bond-based"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-156"
+  },
+  {
+     "globalpsn":157
+    ,"highlightsFindings":[]
+    ,"content":"and"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-157"
+  },
+  {
+     "globalpsn":158
+    ,"highlightsFindings":[]
+    ,"content":"identity-based"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-158"
+  },
+  {
+     "globalpsn":159
+    ,"highlightsFindings":[]
+    ,"content":"attachment"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-159"
+  },
+  {
+     "globalpsn":160
+    ,"highlightsFindings":[]
+    ,"content":"are"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-160"
+  },
+  {
+     "globalpsn":161
+    ,"highlightsFindings":[]
+    ,"content":"so"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-161"
+  },
+  {
+     "globalpsn":162
+    ,"highlightsFindings":[]
+    ,"content":"similar"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-162"
+  },
+  {
+     "globalpsn":163
+    ,"highlightsFindings":[]
+    ,"content":"."
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"word-163"
+  }]
 
-    ],
-    "highlightsPurpose": ["gold"],
-    "highlightsBackground": [],
-    "_id": "word-34"
-  },
-  {
-    "globalPsn": 35,
-    "highlightsFindings": [],
-    "content": "CrowdWeaver,",
-    "highlightsMechanism": [
-
-    ],
-    "highlightsPurpose": ["gold"],
-    "highlightsBackground": [],
-    "_id": "word-35"
-  },
-  {
-    "globalPsn": 36,
-    "highlightsFindings": [],
-    "content": "a",
-    "highlightsMechanism": [
-
-    ],
-    "highlightsPurpose": ["gold"],
-    "highlightsBackground": [],
-    "_id": "word-36"
-  },
-  {
-    "globalPsn": 37,
-    "highlightsFindings": [],
-    "content": "system",
-    "highlightsMechanism": [
-
-    ],
-    "highlightsPurpose": ["gold"],
-    "highlightsBackground": [],
-    "_id": "word-37"
-  },
-  {
-    "globalPsn": 38,
-    "highlightsFindings": [],
-    "content": "to",
-    "highlightsMechanism": [
-
-    ],
-    "highlightsPurpose": ["gold"],
-    "highlightsBackground": [],
-    "_id": "word-38"
-  },
-  {
-    "globalPsn": 39,
-    "highlightsFindings": [],
-    "content": "visually",
-    "highlightsMechanism": [
-
-    ],
-    "highlightsPurpose": ["gold"],
-    "highlightsBackground": [],
-    "_id": "word-39"
-  },
-  {
-    "globalPsn": 40,
-    "highlightsFindings": [],
-    "content": "manage",
-    "highlightsMechanism": [
-
-    ],
-    "highlightsPurpose": ["gold"],
-    "highlightsBackground": [],
-    "_id": "word-40"
-  },
-  {
-    "globalPsn": 41,
-    "highlightsFindings": [],
-    "content": "complex",
-    "highlightsMechanism": [
-
-    ],
-    "highlightsPurpose": ["gold"],
-    "highlightsBackground": [],
-    "_id": "word-41"
-  },
-  {
-    "globalPsn": 42,
-    "highlightsFindings": [],
-    "content": "crowd",
-    "highlightsMechanism": [
-    ],
-    "highlightsPurpose": [
-      "gold"
-    ],
-    "highlightsBackground": [],
-    "_id": "word-42"
-  },
-  {
-    "globalPsn": 43,
-    "highlightsFindings": [],
-    "content": "work.",
-    "highlightsMechanism": [
-
-    ],
-    "highlightsPurpose": ["gold"],
-    "highlightsBackground": [],
-    "_id": "word-43"
-  },
-  {
-    "globalPsn": 44,
-    "highlightsFindings": [],
-    "content": "The",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-44"
-  },
-  {
-    "globalPsn": 45,
-    "highlightsFindings": [],
-    "content": "system",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-45"
-  },
-  {
-    "globalPsn": 46,
-    "highlightsFindings": [],
-    "content": "supports",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-46"
-  },
-  {
-    "globalPsn": 47,
-    "highlightsFindings": [],
-    "content": "the",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-47"
-  },
-  {
-    "globalPsn": 48,
-    "highlightsFindings": [],
-    "content": "creation",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-48"
-  },
-  {
-    "globalPsn": 49,
-    "highlightsFindings": [],
-    "content": "and",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-49"
-  },
-  {
-    "globalPsn": 50,
-    "highlightsFindings": [],
-    "content": "reuse",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-50"
-  },
-  {
-    "globalPsn": 51,
-    "highlightsFindings": [],
-    "content": "of",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-51"
-  },
-  {
-    "globalPsn": 52,
-    "highlightsFindings": [],
-    "content": "crowdsourcing",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-52"
-  },
-  {
-    "globalPsn": 53,
-    "highlightsFindings": [],
-    "content": "and",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-53"
-  },
-  {
-    "globalPsn": 54,
-    "highlightsFindings": [],
-    "content": "computational",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-54"
-  },
-  {
-    "globalPsn": 55,
-    "highlightsFindings": [],
-    "content": "tasks",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-55"
-  },
-  {
-    "globalPsn": 56,
-    "highlightsFindings": [],
-    "content": "into",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-56"
-  },
-  {
-    "globalPsn": 57,
-    "highlightsFindings": [],
-    "content": "integrated",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-57"
-  },
-  {
-    "globalPsn": 58,
-    "highlightsFindings": [],
-    "content": "task",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-58"
-  },
-  {
-    "globalPsn": 59,
-    "highlightsFindings": [],
-    "content": "flows,",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-59"
-  },
-  {
-    "globalPsn": 60,
-    "highlightsFindings": [],
-    "content": "manages",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-60"
-  },
-  {
-    "globalPsn": 61,
-    "highlightsFindings": [],
-    "content": "the",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-61"
-  },
-  {
-    "globalPsn": 62,
-    "highlightsFindings": [],
-    "content": "flow",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-62"
-  },
-  {
-    "globalPsn": 63,
-    "highlightsFindings": [],
-    "content": "of",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-63"
-  },
-  {
-    "globalPsn": 64,
-    "highlightsFindings": [],
-    "content": "data",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-64"
-  },
-  {
-    "globalPsn": 65,
-    "highlightsFindings": [],
-    "content": "between",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-65"
-  },
-  {
-    "globalPsn": 66,
-    "highlightsFindings": [],
-    "content": "tasks,",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-66"
-  },
-  {
-    "globalPsn": 67,
-    "highlightsFindings": [],
-    "content": "and",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-67"
-  },
-  {
-    "globalPsn": 68,
-    "highlightsFindings": [],
-    "content": "allows",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-68"
-  },
-  {
-    "globalPsn": 69,
-    "highlightsFindings": [],
-    "content": "tracking",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-69"
-  },
-  {
-    "globalPsn": 70,
-    "highlightsFindings": [],
-    "content": "and",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-70"
-  },
-  {
-    "globalPsn": 71,
-    "highlightsFindings": [],
-    "content": "notification",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-71"
-  },
-  {
-    "globalPsn": 72,
-    "highlightsFindings": [],
-    "content": "of",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-72"
-  },
-  {
-    "globalPsn": 73,
-    "highlightsFindings": [],
-    "content": "task",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-73"
-  },
-  {
-    "globalPsn": 74,
-    "highlightsFindings": [],
-    "content": "progress,",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-74"
-  },
-  {
-    "globalPsn": 75,
-    "highlightsFindings": [],
-    "content": "with",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-75"
-  },
-  {
-    "globalPsn": 76,
-    "highlightsFindings": [],
-    "content": "support",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-76"
-  },
-  {
-    "globalPsn": 77,
-    "highlightsFindings": [],
-    "content": "for",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-77"
-  },
-  {
-    "globalPsn": 78,
-    "highlightsFindings": [],
-    "content": "real-time",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-78"
-  },
-  {
-    "globalPsn": 79,
-    "highlightsFindings": [],
-    "content": "modification.",
-    "highlightsMechanism": [
-      "gold"
-    ],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-79"
-  },
-  {
-    "globalPsn": 80,
-    "highlightsFindings": [
-      "gold"
-    ],
-    "content": "We",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-80"
-  },
-  {
-    "globalPsn": 81,
-    "highlightsFindings": [
-      "gold"
-    ],
-    "content": "describe",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-81"
-  },
-  {
-    "globalPsn": 82,
-    "highlightsFindings": [
-      "gold"
-    ],
-    "content": "the",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-82"
-  },
-  {
-    "globalPsn": 83,
-    "highlightsFindings": [
-      "gold"
-    ],
-    "content": "system",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-83"
-  },
-  {
-    "globalPsn": 84,
-    "highlightsFindings": [
-      "gold"
-    ],
-    "content": "and",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-84"
-  },
-  {
-    "globalPsn": 85,
-    "highlightsFindings": [
-      "gold"
-    ],
-    "content": "demonstrate",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-85"
-  },
-  {
-    "globalPsn": 86,
-    "highlightsFindings": [
-      "gold"
-    ],
-    "content": "its",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-86"
-  },
-  {
-    "globalPsn": 87,
-    "highlightsFindings": [
-      "gold"
-    ],
-    "content": "utility",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-87"
-  },
-  {
-    "globalPsn": 88,
-    "highlightsFindings": [
-      "gold"
-    ],
-    "content": "through",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-88"
-  },
-  {
-    "globalPsn": 89,
-    "highlightsFindings": [
-      "gold"
-    ],
-    "content": "case",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-89"
-  },
-  {
-    "globalPsn": 90,
-    "highlightsFindings": [
-      "gold"
-    ],
-    "content": "studies",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-90"
-  },
-  {
-    "globalPsn": 91,
-    "highlightsFindings": [
-      "gold"
-    ],
-    "content": "and",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-91"
-  },
-  {
-    "globalPsn": 92,
-    "highlightsFindings": [
-      "gold"
-    ],
-    "content": "user",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-92"
-  },
-  {
-    "globalPsn": 93,
-    "highlightsFindings": [
-      "gold"
-    ],
-    "content": "feedback.",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "word-93"
-  }
-]
 
 trainTutorialWords = [
   {
-    "globalPsn": 0,
-    "highlightsFindings": [],
-    "content": "Though",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w0"
-  },
-  {
-    "globalPsn": 1,
-    "highlightsFindings": [],
-    "content": "toolkits",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w1"
-  },
-  {
-    "globalPsn": 2,
-    "highlightsFindings": [],
-    "content": "exist",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w2"
-  },
-  {
-    "globalPsn": 3,
-    "highlightsFindings": [],
-    "content": "to",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w3"
-  },
-  {
-    "globalPsn": 4,
-    "highlightsFindings": [],
-    "content": "create",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w4"
-  },
-  {
-    "globalPsn": 5,
-    "highlightsFindings": [],
-    "content": "complex",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w5"
-  },
-  {
-    "globalPsn": 6,
-    "highlightsFindings": [],
-    "content": "crowdsourced",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w6"
-  },
-  {
-    "globalPsn": 7,
-    "highlightsFindings": [],
-    "content": "workflows,",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w7"
-  },
-  {
-    "globalPsn": 8,
-    "highlightsFindings": [],
-    "content": "there",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w8"
-  },
-  {
-    "globalPsn": 9,
-    "highlightsFindings": [],
-    "content": "is",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w9"
-  },
-  {
-    "globalPsn": 10,
-    "highlightsFindings": [],
-    "content": "limited",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w10"
-  },
-  {
-    "globalPsn": 11,
-    "highlightsFindings": [],
-    "content": "support",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w11"
-  },
-  {
-    "globalPsn": 12,
-    "highlightsFindings": [],
-    "content": "for",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w12"
-  },
-  {
-    "globalPsn": 13,
-    "highlightsFindings": [],
-    "content": "management",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w13"
-  },
-  {
-    "globalPsn": 14,
-    "highlightsFindings": [],
-    "content": "of",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w14"
-  },
-  {
-    "globalPsn": 15,
-    "highlightsFindings": [],
-    "content": "those",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w15"
-  },
-  {
-    "globalPsn": 16,
-    "highlightsFindings": [],
-    "content": "workflows.",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w16"
-  },
-  {
-    "globalPsn": 17,
-    "highlightsFindings": [],
-    "content": "Managing",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w17"
-  },
-  {
-    "globalPsn": 18,
-    "highlightsFindings": [],
-    "content": "crowd",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w18"
-  },
-  {
-    "globalPsn": 19,
-    "highlightsFindings": [],
-    "content": "workers",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w19"
-  },
-  {
-    "globalPsn": 20,
-    "highlightsFindings": [],
-    "content": "and",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w20"
-  },
-  {
-    "globalPsn": 21,
-    "highlightsFindings": [],
-    "content": "tasks",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w21"
-  },
-  {
-    "globalPsn": 22,
-    "highlightsFindings": [],
-    "content": "requires",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w22"
-  },
-  {
-    "globalPsn": 23,
-    "highlightsFindings": [],
-    "content": "significant",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w23"
-  },
-  {
-    "globalPsn": 24,
-    "highlightsFindings": [],
-    "content": "iteration",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w24"
-  },
-  {
-    "globalPsn": 25,
-    "highlightsFindings": [],
-    "content": "and",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w25"
-  },
-  {
-    "globalPsn": 26,
-    "highlightsFindings": [],
-    "content": "experimentation",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w26"
-  },
-  {
-    "globalPsn": 27,
-    "highlightsFindings": [],
-    "content": "on",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w27"
-  },
-  {
-    "globalPsn": 28,
-    "highlightsFindings": [],
-    "content": "task",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w28"
-  },
-  {
-    "globalPsn": 29,
-    "highlightsFindings": [],
-    "content": "instructions,",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w29"
-  },
-  {
-    "globalPsn": 30,
-    "highlightsFindings": [],
-    "content": "rewards,",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w30"
-  },
-  {
-    "globalPsn": 31,
-    "highlightsFindings": [],
-    "content": "and",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w31"
-  },
-  {
-    "globalPsn": 32,
-    "highlightsFindings": [],
-    "content": "flows.",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w32"
-  },
-  {
-    "globalPsn": 33,
-    "highlightsFindings": [],
-    "content": "We",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w33"
-  },
-  {
-    "globalPsn": 34,
-    "highlightsFindings": [],
-    "content": "present",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w34"
-  },
-  {
-    "globalPsn": 35,
-    "highlightsFindings": [],
-    "content": "CrowdWeaver,",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w35"
-  },
-  {
-    "globalPsn": 36,
-    "highlightsFindings": [],
-    "content": "a",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w36"
-  },
-  {
-    "globalPsn": 37,
-    "highlightsFindings": [],
-    "content": "system",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w37"
-  },
-  {
-    "globalPsn": 38,
-    "highlightsFindings": [],
-    "content": "to",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w38"
-  },
-  {
-    "globalPsn": 39,
-    "highlightsFindings": [],
-    "content": "visually",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w39"
-  },
-  {
-    "globalPsn": 40,
-    "highlightsFindings": [],
-    "content": "manage",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w40"
-  },
-  {
-    "globalPsn": 41,
-    "highlightsFindings": [],
-    "content": "complex",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w41"
-  },
-  {
-    "globalPsn": 42,
-    "highlightsFindings": [],
-    "content": "crowd",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w42"
-  },
-  {
-    "globalPsn": 43,
-    "highlightsFindings": [],
-    "content": "work.",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w43"
-  },
-  {
-    "globalPsn": 44,
-    "highlightsFindings": [],
-    "content": "The",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w44"
-  },
-  {
-    "globalPsn": 45,
-    "highlightsFindings": [],
-    "content": "system",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w45"
-  },
-  {
-    "globalPsn": 46,
-    "highlightsFindings": [],
-    "content": "supports",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w46"
-  },
-  {
-    "globalPsn": 47,
-    "highlightsFindings": [],
-    "content": "the",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w47"
-  },
-  {
-    "globalPsn": 48,
-    "highlightsFindings": [],
-    "content": "creation",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w48"
-  },
-  {
-    "globalPsn": 49,
-    "highlightsFindings": [],
-    "content": "and",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w49"
-  },
-  {
-    "globalPsn": 50,
-    "highlightsFindings": [],
-    "content": "reuse",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w50"
-  },
-  {
-    "globalPsn": 51,
-    "highlightsFindings": [],
-    "content": "of",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w51"
-  },
-  {
-    "globalPsn": 52,
-    "highlightsFindings": [],
-    "content": "crowdsourcing",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w52"
-  },
-  {
-    "globalPsn": 53,
-    "highlightsFindings": [],
-    "content": "and",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w53"
-  },
-  {
-    "globalPsn": 54,
-    "highlightsFindings": [],
-    "content": "computational",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w54"
-  },
-  {
-    "globalPsn": 55,
-    "highlightsFindings": [],
-    "content": "tasks",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w55"
-  },
-  {
-    "globalPsn": 56,
-    "highlightsFindings": [],
-    "content": "into",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w56"
-  },
-  {
-    "globalPsn": 57,
-    "highlightsFindings": [],
-    "content": "integrated",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w57"
-  },
-  {
-    "globalPsn": 58,
-    "highlightsFindings": [],
-    "content": "task",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w58"
-  },
-  {
-    "globalPsn": 59,
-    "highlightsFindings": [],
-    "content": "flows,",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w59"
-  },
-  {
-    "globalPsn": 60,
-    "highlightsFindings": [],
-    "content": "manages",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w60"
-  },
-  {
-    "globalPsn": 61,
-    "highlightsFindings": [],
-    "content": "the",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w61"
-  },
-  {
-    "globalPsn": 62,
-    "highlightsFindings": [],
-    "content": "flow",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w62"
-  },
-  {
-    "globalPsn": 63,
-    "highlightsFindings": [],
-    "content": "of",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w63"
-  },
-  {
-    "globalPsn": 64,
-    "highlightsFindings": [],
-    "content": "data",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w64"
-  },
-  {
-    "globalPsn": 65,
-    "highlightsFindings": [],
-    "content": "between",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w65"
-  },
-  {
-    "globalPsn": 66,
-    "highlightsFindings": [],
-    "content": "tasks,",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w66"
-  },
-  {
-    "globalPsn": 67,
-    "highlightsFindings": [],
-    "content": "and",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w67"
-  },
-  {
-    "globalPsn": 68,
-    "highlightsFindings": [],
-    "content": "allows",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w68"
-  },
-  {
-    "globalPsn": 69,
-    "highlightsFindings": [],
-    "content": "tracking",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w69"
-  },
-  {
-    "globalPsn": 70,
-    "highlightsFindings": [],
-    "content": "and",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w70"
-  },
-  {
-    "globalPsn": 71,
-    "highlightsFindings": [],
-    "content": "notification",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w71"
-  },
-  {
-    "globalPsn": 72,
-    "highlightsFindings": [],
-    "content": "of",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w72"
-  },
-  {
-    "globalPsn": 73,
-    "highlightsFindings": [],
-    "content": "task",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w73"
-  },
-  {
-    "globalPsn": 74,
-    "highlightsFindings": [],
-    "content": "progress,",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w74"
-  },
-  {
-    "globalPsn": 75,
-    "highlightsFindings": [],
-    "content": "with",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w75"
-  },
-  {
-    "globalPsn": 76,
-    "highlightsFindings": [],
-    "content": "support",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w76"
-  },
-  {
-    "globalPsn": 77,
-    "highlightsFindings": [],
-    "content": "for",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w77"
-  },
-  {
-    "globalPsn": 78,
-    "highlightsFindings": [],
-    "content": "real-time",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w78"
-  },
-  {
-    "globalPsn": 79,
-    "highlightsFindings": [],
-    "content": "modification.",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w79"
-  },
-  {
-    "globalPsn": 80,
-    "highlightsFindings": [],
-    "content": "We",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w80"
-  },
-  {
-    "globalPsn": 81,
-    "highlightsFindings": [],
-    "content": "describe",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w81"
-  },
-  {
-    "globalPsn": 82,
-    "highlightsFindings": [],
-    "content": "the",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w82"
-  },
-  {
-    "globalPsn": 83,
-    "highlightsFindings": [],
-    "content": "system",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w83"
-  },
-  {
-    "globalPsn": 84,
-    "highlightsFindings": [],
-    "content": "and",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w84"
-  },
-  {
-    "globalPsn": 85,
-    "highlightsFindings": [],
-    "content": "demonstrate",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w85"
-  },
-  {
-    "globalPsn": 86,
-    "highlightsFindings": [],
-    "content": "its",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w86"
-  },
-  {
-    "globalPsn": 87,
-    "highlightsFindings": [],
-    "content": "utility",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w87"
-  },
-  {
-    "globalPsn": 88,
-    "highlightsFindings": [],
-    "content": "through",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w88"
-  },
-  {
-    "globalPsn": 89,
-    "highlightsFindings": [],
-    "content": "case",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w89"
-  },
-  {
-    "globalPsn": 90,
-    "highlightsFindings": [],
-    "content": "studies",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w90"
-  },
-  {
-    "globalPsn": 91,
-    "highlightsFindings": [],
-    "content": "and",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w91"
-  },
-  {
-    "globalPsn": 92,
-    "highlightsFindings": [],
-    "content": "user",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w92"
-  },
-  {
-    "globalPsn": 93,
-    "highlightsFindings": [],
-    "content": "feedback.",
-    "highlightsMechanism": [],
-    "highlightsPurpose": [],
-    "highlightsBackground": [],
-    "_id": "w93"
-  }
-]
+     "globalpsn":0
+    ,"highlightsFindings":[]
+    ,"content":"Researchers"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w0"
+  },
+  {
+     "globalpsn":1
+    ,"highlightsFindings":[]
+    ,"content":"and"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w1"
+  },
+  {
+     "globalpsn":2
+    ,"highlightsFindings":[]
+    ,"content":"theorists"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w2"
+  },
+  {
+     "globalpsn":3
+    ,"highlightsFindings":[]
+    ,"content":"have"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w3"
+  },
+  {
+     "globalpsn":4
+    ,"highlightsFindings":[]
+    ,"content":"proposed"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w4"
+  },
+  {
+     "globalpsn":5
+    ,"highlightsFindings":[]
+    ,"content":"that"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w5"
+  },
+  {
+     "globalpsn":6
+    ,"highlightsFindings":[]
+    ,"content":"feelings"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w6"
+  },
+  {
+     "globalpsn":7
+    ,"highlightsFindings":[]
+    ,"content":"of"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w7"
+  },
+  {
+     "globalpsn":8
+    ,"highlightsFindings":[]
+    ,"content":"attachment"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w8"
+  },
+  {
+     "globalpsn":9
+    ,"highlightsFindings":[]
+    ,"content":"to"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w9"
+  },
+  {
+     "globalpsn":10
+    ,"highlightsFindings":[]
+    ,"content":"subgroups"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w10"
+  },
+  {
+     "globalpsn":11
+    ,"highlightsFindings":[]
+    ,"content":"within"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w11"
+  },
+  {
+     "globalpsn":12
+    ,"highlightsFindings":[]
+    ,"content":"a"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w12"
+  },
+  {
+     "globalpsn":13
+    ,"highlightsFindings":[]
+    ,"content":"larger"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w13"
+  },
+  {
+     "globalpsn":14
+    ,"highlightsFindings":[]
+    ,"content":"online"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w14"
+  },
+  {
+     "globalpsn":15
+    ,"highlightsFindings":[]
+    ,"content":"community"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w15"
+  },
+  {
+     "globalpsn":16
+    ,"highlightsFindings":[]
+    ,"content":"or"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w16"
+  },
+  {
+     "globalpsn":17
+    ,"highlightsFindings":[]
+    ,"content":"site"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w17"
+  },
+  {
+     "globalpsn":18
+    ,"highlightsFindings":[]
+    ,"content":"can"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w18"
+  },
+  {
+     "globalpsn":19
+    ,"highlightsFindings":[]
+    ,"content":"increase"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w19"
+  },
+  {
+     "globalpsn":20
+    ,"highlightsFindings":[]
+    ,"content":"users"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w20"
+  },
+  {
+     "globalpsn":21
+    ,"highlightsFindings":[]
+    ,"content":"'"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w21"
+  },
+  {
+     "globalpsn":22
+    ,"highlightsFindings":[]
+    ,"content":"loyalty"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w22"
+  },
+  {
+     "globalpsn":23
+    ,"highlightsFindings":[]
+    ,"content":"to"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w23"
+  },
+  {
+     "globalpsn":24
+    ,"highlightsFindings":[]
+    ,"content":"the"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w24"
+  },
+  {
+     "globalpsn":25
+    ,"highlightsFindings":[]
+    ,"content":"site"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w25"
+  },
+  {
+     "globalpsn":26
+    ,"highlightsFindings":[]
+    ,"content":"."
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w26"
+  },
+  {
+     "globalpsn":27
+    ,"highlightsFindings":[]
+    ,"content":"They"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w27"
+  },
+  {
+     "globalpsn":28
+    ,"highlightsFindings":[]
+    ,"content":"have"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w28"
+  },
+  {
+     "globalpsn":29
+    ,"highlightsFindings":[]
+    ,"content":"identified"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w29"
+  },
+  {
+     "globalpsn":30
+    ,"highlightsFindings":[]
+    ,"content":"two"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w30"
+  },
+  {
+     "globalpsn":31
+    ,"highlightsFindings":[]
+    ,"content":"types"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w31"
+  },
+  {
+     "globalpsn":32
+    ,"highlightsFindings":[]
+    ,"content":"of"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w32"
+  },
+  {
+     "globalpsn":33
+    ,"highlightsFindings":[]
+    ,"content":"attachment,"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w33"
+  },
+  {
+     "globalpsn":34
+    ,"highlightsFindings":[]
+    ,"content":"with"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w34"
+  },
+  {
+     "globalpsn":35
+    ,"highlightsFindings":[]
+    ,"content":"distinct"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w35"
+  },
+  {
+     "globalpsn":36
+    ,"highlightsFindings":[]
+    ,"content":"causes"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w36"
+  },
+  {
+     "globalpsn":37
+    ,"highlightsFindings":[]
+    ,"content":"and"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w37"
+  },
+  {
+     "globalpsn":38
+    ,"highlightsFindings":[]
+    ,"content":"consequences"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w38"
+  },
+  {
+     "globalpsn":39
+    ,"highlightsFindings":[]
+    ,"content":"."
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w39"
+  },
+  {
+     "globalpsn":40
+    ,"highlightsFindings":[]
+    ,"content":"With"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w40"
+  },
+  {
+     "globalpsn":41
+    ,"highlightsFindings":[]
+    ,"content":"bond-based"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w41"
+  },
+  {
+     "globalpsn":42
+    ,"highlightsFindings":[]
+    ,"content":"attachment,"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w42"
+  },
+  {
+     "globalpsn":43
+    ,"highlightsFindings":[]
+    ,"content":"people"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w43"
+  },
+  {
+     "globalpsn":44
+    ,"highlightsFindings":[]
+    ,"content":"feel"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w44"
+  },
+  {
+     "globalpsn":45
+    ,"highlightsFindings":[]
+    ,"content":"connections"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w45"
+  },
+  {
+     "globalpsn":46
+    ,"highlightsFindings":[]
+    ,"content":"to"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w46"
+  },
+  {
+     "globalpsn":47
+    ,"highlightsFindings":[]
+    ,"content":"other"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w47"
+  },
+  {
+     "globalpsn":48
+    ,"highlightsFindings":[]
+    ,"content":"group"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w48"
+  },
+  {
+     "globalpsn":49
+    ,"highlightsFindings":[]
+    ,"content":"members,"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w49"
+  },
+  {
+     "globalpsn":50
+    ,"highlightsFindings":[]
+    ,"content":"while"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w50"
+  },
+  {
+     "globalpsn":51
+    ,"highlightsFindings":[]
+    ,"content":"with"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w51"
+  },
+  {
+     "globalpsn":52
+    ,"highlightsFindings":[]
+    ,"content":"identity-based"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w52"
+  },
+  {
+     "globalpsn":53
+    ,"highlightsFindings":[]
+    ,"content":"attachment"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w53"
+  },
+  {
+     "globalpsn":54
+    ,"highlightsFindings":[]
+    ,"content":"they"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w54"
+  },
+  {
+     "globalpsn":55
+    ,"highlightsFindings":[]
+    ,"content":"feel"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w55"
+  },
+  {
+     "globalpsn":56
+    ,"highlightsFindings":[]
+    ,"content":"connections"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w56"
+  },
+  {
+     "globalpsn":57
+    ,"highlightsFindings":[]
+    ,"content":"to"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w57"
+  },
+  {
+     "globalpsn":58
+    ,"highlightsFindings":[]
+    ,"content":"the"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w58"
+  },
+  {
+     "globalpsn":59
+    ,"highlightsFindings":[]
+    ,"content":"group"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w59"
+  },
+  {
+     "globalpsn":60
+    ,"highlightsFindings":[]
+    ,"content":"as"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w60"
+  },
+  {
+     "globalpsn":61
+    ,"highlightsFindings":[]
+    ,"content":"a"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w61"
+  },
+  {
+     "globalpsn":62
+    ,"highlightsFindings":[]
+    ,"content":"whole"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w62"
+  },
+  {
+     "globalpsn":63
+    ,"highlightsFindings":[]
+    ,"content":"."
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w63"
+  },
+  {
+     "globalpsn":64
+    ,"highlightsFindings":[]
+    ,"content":"In"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w64"
+  },
+  {
+     "globalpsn":65
+    ,"highlightsFindings":[]
+    ,"content":"two"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w65"
+  },
+  {
+     "globalpsn":66
+    ,"highlightsFindings":[]
+    ,"content":"experiments"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w66"
+  },
+  {
+     "globalpsn":67
+    ,"highlightsFindings":[]
+    ,"content":"we"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w67"
+  },
+  {
+     "globalpsn":68
+    ,"highlightsFindings":[]
+    ,"content":"show"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w68"
+  },
+  {
+     "globalpsn":69
+    ,"highlightsFindings":[]
+    ,"content":"that"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w69"
+  },
+  {
+     "globalpsn":70
+    ,"highlightsFindings":[]
+    ,"content":"these"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w70"
+  },
+  {
+     "globalpsn":71
+    ,"highlightsFindings":[]
+    ,"content":"feelings"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w71"
+  },
+  {
+     "globalpsn":72
+    ,"highlightsFindings":[]
+    ,"content":"of"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w72"
+  },
+  {
+     "globalpsn":73
+    ,"highlightsFindings":[]
+    ,"content":"attachment"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w73"
+  },
+  {
+     "globalpsn":74
+    ,"highlightsFindings":[]
+    ,"content":"to"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w74"
+  },
+  {
+     "globalpsn":75
+    ,"highlightsFindings":[]
+    ,"content":"subgroups"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w75"
+  },
+  {
+     "globalpsn":76
+    ,"highlightsFindings":[]
+    ,"content":"increase"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w76"
+  },
+  {
+     "globalpsn":77
+    ,"highlightsFindings":[]
+    ,"content":"loyalty"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w77"
+  },
+  {
+     "globalpsn":78
+    ,"highlightsFindings":[]
+    ,"content":"to"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w78"
+  },
+  {
+     "globalpsn":79
+    ,"highlightsFindings":[]
+    ,"content":"the"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w79"
+  },
+  {
+     "globalpsn":80
+    ,"highlightsFindings":[]
+    ,"content":"larger"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w80"
+  },
+  {
+     "globalpsn":81
+    ,"highlightsFindings":[]
+    ,"content":"community"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w81"
+  },
+  {
+     "globalpsn":82
+    ,"highlightsFindings":[]
+    ,"content":"."
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w82"
+  },
+  {
+     "globalpsn":83
+    ,"highlightsFindings":[]
+    ,"content":"Communication"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w83"
+  },
+  {
+     "globalpsn":84
+    ,"highlightsFindings":[]
+    ,"content":"with"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w84"
+  },
+  {
+     "globalpsn":85
+    ,"highlightsFindings":[]
+    ,"content":"other"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w85"
+  },
+  {
+     "globalpsn":86
+    ,"highlightsFindings":[]
+    ,"content":"people"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w86"
+  },
+  {
+     "globalpsn":87
+    ,"highlightsFindings":[]
+    ,"content":"in"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w87"
+  },
+  {
+     "globalpsn":88
+    ,"highlightsFindings":[]
+    ,"content":"a"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w88"
+  },
+  {
+     "globalpsn":89
+    ,"highlightsFindings":[]
+    ,"content":"subgroup"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w89"
+  },
+  {
+     "globalpsn":90
+    ,"highlightsFindings":[]
+    ,"content":"but"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w90"
+  },
+  {
+     "globalpsn":91
+    ,"highlightsFindings":[]
+    ,"content":"not"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w91"
+  },
+  {
+     "globalpsn":92
+    ,"highlightsFindings":[]
+    ,"content":"simple"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w92"
+  },
+  {
+     "globalpsn":93
+    ,"highlightsFindings":[]
+    ,"content":"awareness"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w93"
+  },
+  {
+     "globalpsn":94
+    ,"highlightsFindings":[]
+    ,"content":"of"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w94"
+  },
+  {
+     "globalpsn":95
+    ,"highlightsFindings":[]
+    ,"content":"them"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w95"
+  },
+  {
+     "globalpsn":96
+    ,"highlightsFindings":[]
+    ,"content":"increases"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w96"
+  },
+  {
+     "globalpsn":97
+    ,"highlightsFindings":[]
+    ,"content":"attachment"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w97"
+  },
+  {
+     "globalpsn":98
+    ,"highlightsFindings":[]
+    ,"content":"to"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w98"
+  },
+  {
+     "globalpsn":99
+    ,"highlightsFindings":[]
+    ,"content":"the"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w99"
+  },
+  {
+     "globalpsn":100
+    ,"highlightsFindings":[]
+    ,"content":"larger"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w100"
+  },
+  {
+     "globalpsn":101
+    ,"highlightsFindings":[]
+    ,"content":"community"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w101"
+  },
+  {
+     "globalpsn":102
+    ,"highlightsFindings":[]
+    ,"content":"."
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w102"
+  },
+  {
+     "globalpsn":103
+    ,"highlightsFindings":[]
+    ,"content":"By"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w103"
+  },
+  {
+     "globalpsn":104
+    ,"highlightsFindings":[]
+    ,"content":"varying"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w104"
+  },
+  {
+     "globalpsn":105
+    ,"highlightsFindings":[]
+    ,"content":"how"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w105"
+  },
+  {
+     "globalpsn":106
+    ,"highlightsFindings":[]
+    ,"content":"the"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w106"
+  },
+  {
+     "globalpsn":107
+    ,"highlightsFindings":[]
+    ,"content":"communication"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w107"
+  },
+  {
+     "globalpsn":108
+    ,"highlightsFindings":[]
+    ,"content":"is"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w108"
+  },
+  {
+     "globalpsn":109
+    ,"highlightsFindings":[]
+    ,"content":"structured,"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w109"
+  },
+  {
+     "globalpsn":110
+    ,"highlightsFindings":[]
+    ,"content":"between"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w110"
+  },
+  {
+     "globalpsn":111
+    ,"highlightsFindings":[]
+    ,"content":"dyads"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w111"
+  },
+  {
+     "globalpsn":112
+    ,"highlightsFindings":[]
+    ,"content":"or"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w112"
+  },
+  {
+     "globalpsn":113
+    ,"highlightsFindings":[]
+    ,"content":"with"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w113"
+  },
+  {
+     "globalpsn":114
+    ,"highlightsFindings":[]
+    ,"content":"all"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w114"
+  },
+  {
+     "globalpsn":115
+    ,"highlightsFindings":[]
+    ,"content":"group"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w115"
+  },
+  {
+     "globalpsn":116
+    ,"highlightsFindings":[]
+    ,"content":"members"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w116"
+  },
+  {
+     "globalpsn":117
+    ,"highlightsFindings":[]
+    ,"content":"simultaneously,"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w117"
+  },
+  {
+     "globalpsn":118
+    ,"highlightsFindings":[]
+    ,"content":"the"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w118"
+  },
+  {
+     "globalpsn":119
+    ,"highlightsFindings":[]
+    ,"content":"experiments"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w119"
+  },
+  {
+     "globalpsn":120
+    ,"highlightsFindings":[]
+    ,"content":"show"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w120"
+  },
+  {
+     "globalpsn":121
+    ,"highlightsFindings":[]
+    ,"content":"that"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w121"
+  },
+  {
+     "globalpsn":122
+    ,"highlightsFindings":[]
+    ,"content":"bond-"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w122"
+  },
+  {
+     "globalpsn":123
+    ,"highlightsFindings":[]
+    ,"content":"and"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w123"
+  },
+  {
+     "globalpsn":124
+    ,"highlightsFindings":[]
+    ,"content":"identity-based"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w124"
+  },
+  {
+     "globalpsn":125
+    ,"highlightsFindings":[]
+    ,"content":"attachment"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w125"
+  },
+  {
+     "globalpsn":126
+    ,"highlightsFindings":[]
+    ,"content":"have"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w126"
+  },
+  {
+     "globalpsn":127
+    ,"highlightsFindings":[]
+    ,"content":"different"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w127"
+  },
+  {
+     "globalpsn":128
+    ,"highlightsFindings":[]
+    ,"content":"causes"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w128"
+  },
+  {
+     "globalpsn":129
+    ,"highlightsFindings":[]
+    ,"content":"."
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w129"
+  },
+  {
+     "globalpsn":130
+    ,"highlightsFindings":[]
+    ,"content":"But"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w130"
+  },
+  {
+     "globalpsn":131
+    ,"highlightsFindings":[]
+    ,"content":"the"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w131"
+  },
+  {
+     "globalpsn":132
+    ,"highlightsFindings":[]
+    ,"content":"experiments"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w132"
+  },
+  {
+     "globalpsn":133
+    ,"highlightsFindings":[]
+    ,"content":"show"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w133"
+  },
+  {
+     "globalpsn":134
+    ,"highlightsFindings":[]
+    ,"content":"no"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w134"
+  },
+  {
+     "globalpsn":135
+    ,"highlightsFindings":[]
+    ,"content":"evidence"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w135"
+  },
+  {
+     "globalpsn":136
+    ,"highlightsFindings":[]
+    ,"content":"that"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w136"
+  },
+  {
+     "globalpsn":137
+    ,"highlightsFindings":[]
+    ,"content":"bond"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w137"
+  },
+  {
+     "globalpsn":138
+    ,"highlightsFindings":[]
+    ,"content":"and"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w138"
+  },
+  {
+     "globalpsn":139
+    ,"highlightsFindings":[]
+    ,"content":"identity"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w139"
+  },
+  {
+     "globalpsn":140
+    ,"highlightsFindings":[]
+    ,"content":"attachment"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w140"
+  },
+  {
+     "globalpsn":141
+    ,"highlightsFindings":[]
+    ,"content":"have"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w141"
+  },
+  {
+     "globalpsn":142
+    ,"highlightsFindings":[]
+    ,"content":"different"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w142"
+  },
+  {
+     "globalpsn":143
+    ,"highlightsFindings":[]
+    ,"content":"consequences"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w143"
+  },
+  {
+     "globalpsn":144
+    ,"highlightsFindings":[]
+    ,"content":"."
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w144"
+  },
+  {
+     "globalpsn":145
+    ,"highlightsFindings":[]
+    ,"content":"We"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w145"
+  },
+  {
+     "globalpsn":146
+    ,"highlightsFindings":[]
+    ,"content":"consider"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w146"
+  },
+  {
+     "globalpsn":147
+    ,"highlightsFindings":[]
+    ,"content":"both"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w147"
+  },
+  {
+     "globalpsn":148
+    ,"highlightsFindings":[]
+    ,"content":"theoretical"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w148"
+  },
+  {
+     "globalpsn":149
+    ,"highlightsFindings":[]
+    ,"content":"and"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w149"
+  },
+  {
+     "globalpsn":150
+    ,"highlightsFindings":[]
+    ,"content":"methodological"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w150"
+  },
+  {
+     "globalpsn":151
+    ,"highlightsFindings":[]
+    ,"content":"reasons"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w151"
+  },
+  {
+     "globalpsn":152
+    ,"highlightsFindings":[]
+    ,"content":"why"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w152"
+  },
+  {
+     "globalpsn":153
+    ,"highlightsFindings":[]
+    ,"content":"the"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w153"
+  },
+  {
+     "globalpsn":154
+    ,"highlightsFindings":[]
+    ,"content":"consequences"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w154"
+  },
+  {
+     "globalpsn":155
+    ,"highlightsFindings":[]
+    ,"content":"of"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w155"
+  },
+  {
+     "globalpsn":156
+    ,"highlightsFindings":[]
+    ,"content":"bond-based"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w156"
+  },
+  {
+     "globalpsn":157
+    ,"highlightsFindings":[]
+    ,"content":"and"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w157"
+  },
+  {
+     "globalpsn":158
+    ,"highlightsFindings":[]
+    ,"content":"identity-based"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w158"
+  },
+  {
+     "globalpsn":159
+    ,"highlightsFindings":[]
+    ,"content":"attachment"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w159"
+  },
+  {
+     "globalpsn":160
+    ,"highlightsFindings":[]
+    ,"content":"are"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w160"
+  },
+  {
+     "globalpsn":161
+    ,"highlightsFindings":[]
+    ,"content":"so"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w161"
+  },
+  {
+     "globalpsn":162
+    ,"highlightsFindings":[]
+    ,"content":"similar"
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w162"
+  },
+  {
+     "globalpsn":163
+    ,"highlightsFindings":[]
+    ,"content":"."
+    ,"highlightsMechanism":[]
+    ,"highlightsPurpose":[]
+    ,"highlightsBackground":[]
+    ,"_id":"w163"
+  }]
 
 // Template.tutorialSentence.helpers({
 //     sampleWords : function() {
