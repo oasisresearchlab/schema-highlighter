@@ -64,7 +64,7 @@ Template.annotateTask.helpers({
     },
     numAnnotations2: function() {
       var doc_test = Documents.findOne(Session.get("currentDoc2")._id);
-      return doc.annotatedBy.length;
+      return doc_test.annotatedBy.length;
     },
     labelBackground: function() {
       return highlightDescriptions['background'];

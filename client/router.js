@@ -117,7 +117,7 @@ Router.map(function() {
                 logger.trace("Current doc: " + JSON.stringify(doc));
                 logger.trace("Current doc2: " + JSON.stringify(doc_test));
                 var dbWords = Words.find({docID: doc._id}).fetch();
-                var dbWords2 = Words.find({docID2: doc_test._id}).fetch();
+                var dbWords2 = Words.find({docID: doc_test._id}).fetch();
                 logger.trace("From beforeAction, " + dbWords + " current words: ");
                 logger.trace("From beforeAction, " + dbWords2 + " current words from second doc: ");
                 // logger.trace(dbWords.length + "dbWords");
@@ -127,19 +127,28 @@ Router.map(function() {
                     // logger.trace("Inserting word " + JSON.stringify(word) + " into local words collection");
                     LocalWords.insert(word);
                   });
+                  dbWords2.forEach(function(word) {
+                    // logger.trace("Inserting word " + JSON.stringify(word) + " into local words collection");
+                    LocalWords.insert(word);
+                  });
                 } else { // refreshed, or going from next page
                   var randomWord = LocalWords.findOne();
                   if (!randomWord.hasOwnProperty("sentenceID")) {
                     // reset if we're coming from the tutorial page
                     LocalWords = new Mongo.Collection(null);
                     dbWords.forEach(function(word) {
-                      // logger.trace("Inserting word " + JSON.stringify(word) + " into local words collection");
+                      logger.trace("Inserting word " + JSON.stringify(word) + " into local words collection");
+                      LocalWords.insert(word);
+                    });
+                    dbWords2.forEach(function(word) {
+                      logger.trace("Inserting word " + JSON.stringify(word) + " into local words collection");
                       LocalWords.insert(word);
                     });
                   }
                 }
                 logger.trace(LocalWords.find().count() + "local words");
                 EventLogger.logBeginDocument(this.params.docID);
+                EventLogger.logBeginDocument(this.params.docID2);
                 this.next();
             }
         },
