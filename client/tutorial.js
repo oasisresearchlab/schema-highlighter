@@ -132,9 +132,12 @@ Template.tutorial.events({
         var user = Session.get("currentUser");
         if (user) {
             var doc = DocumentManager.sampleDocument(user._id);
+            var doc_test = DocumentManager.sampleDocument_test(user._id);
             logger.trace("Sending user to annotation task with document " + JSON.stringify(doc));
+            logger.trace("Sending user to annotation task with document " + JSON.stringify(doc_test));
             Router.go("Annotate", {userID: user._id,
-                                    docID: doc._id});
+                                    docID: doc._id,
+                                   docID2: doc_test._id});
         } else {
             logger.warn("User is not logged in");
             alert("You need to have entered your MTurkID to continue");

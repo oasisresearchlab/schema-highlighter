@@ -53,8 +53,17 @@ Template.annotateTask.helpers({
         return Sentences.find({docID: Session.get("currentDoc")._id},
                                 {sort: {psn: 1}});
     },
+    sentences2: function() {
+        logger.debug("Getting sentences...");
+        return Sentences.find({docID2: Session.get("currentDoc2")._id},
+                                {sort: {psn: 1}});
+    },
     numAnnotations: function() {
       var doc = Documents.findOne(Session.get("currentDoc")._id);
+      return doc.annotatedBy.length;
+    },
+    numAnnotations2: function() {
+      var doc_test = Documents.findOne(Session.get("currentDoc2")._id);
       return doc.annotatedBy.length;
     },
     labelBackground: function() {

@@ -76,13 +76,14 @@ Router.map(function() {
 
     this.route('Annotate', {
         name: 'Annotate',
-        path: '/annotate/:userID/:docID',
+        path: '/annotate/:userID/:docID/:docID2',
         template: 'annotationPage',
         subscriptions: function() {
             // this.subscribe("documents", {_id: this.params.docID});
             this.subscribe("summaries");
             // this.subscribe("sentences", {docID: this.params.docID});
             this.subscribe("docSentences", this.params.docID);
+            this.subscribe("docSentences2", this.params.docID2); 
             // this.subscribe("words", {docID: this.params.docID});
         },
         waitOn: function() {
@@ -93,6 +94,8 @@ Router.map(function() {
               // Meteor.subscribe("words", {docID: this.params.docID}),
               Meteor.subscribe("document", this.params.docID),
               Meteor.subscribe("docWords", this.params.docID),
+              Meteor.subscribe("document", this.params.docID2),
+              Meteor.subscribe("docWords", this.params.docID2),
               // Meteor.subscribe("summaries"),
               // Meteor.subscribe("sentences", {docID: this.params.docID})
           ];
@@ -106,12 +109,17 @@ Router.map(function() {
                 logger.trace("Sentences: " + JSON.stringify(Sentences.find().fetch()))
                 logger.trace("Words: " + JSON.stringify(Words.find().fetch()))
                 var doc = Documents.findOne({_id: this.params.docID});
+                var doc_test = Documents.findOne({_id: this.params.docID2});
                 Session.set("currentDoc", doc);
+                Session.set("currentDoc2", doc_test);
                 $('.navbar-brand').text("Annotator: Welcome >> Tutorial >> Main Task");
                 setCurrentUser(this.params.userID);
                 logger.trace("Current doc: " + JSON.stringify(doc));
+                logger.trace("Current doc2: " + JSON.stringify(doc_test));
                 var dbWords = Words.find({docID: doc._id}).fetch();
+                var dbWords2 = Words.find({docID2: doc_test._id}).fetch();
                 logger.trace("From beforeAction, " + dbWords + " current words: ");
+                logger.trace("From beforeAction, " + dbWords2 + " current words from second doc: ");
                 // logger.trace(dbWords.length + "dbWords");
                 if (LocalWords.find().count() < 1) { // newly created local
                   // LocalWords = new Mongo.Collection(null);
